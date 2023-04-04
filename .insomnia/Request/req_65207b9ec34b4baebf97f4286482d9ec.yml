@@ -1,0 +1,24 @@
+_id: req_65207b9ec34b4baebf97f4286482d9ec
+type: Request
+parentId: fld_ab715bde2e9e4e98abc8a1ccc59bef93
+modified: 1651076500240
+created: 1651076500240
+url: "{{evagr}}/unbilled/appliedCustomerBillingRate/commit?billAcc=konto_dla_de\
+  mo2&customerBillId=billId_8"
+name: unbilled/appBillRated/commit
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500240
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

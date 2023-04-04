@@ -1,0 +1,55 @@
+_id: req_1182a0a09cab4d1aa6f042fc2ae9e0fb
+type: Request
+parentId: fld_aea2abd6402a4a26a7705c81063a1ad2
+modified: 1679408116940
+created: 1679403658852
+url: https://sblsitapp01.unx.t-mobile.pl:8443/customerManagement/v4/billingAccounts/3000056989
+name: /change migration phase
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "characteristics": [
+        {
+          "name": "billingSystem",
+          "value": "CBM"
+        },
+    		{
+          "name": "migrationPhase",
+          "value": "CBM"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_23cceafaf2584f5bb7895dbd8a6d436d
+  - id: pair_1d8db6d2cf5d4e12bcdf1e7411e36730
+    name: Authorization
+    value: Bearer
+      eyJraWQiOiJBT0JTRFcwandZanFEcmxhaHQ1MVpBPT0iLCJhbGciOiJQUzUxMiJ9.eyJzdWIiOiJyYm0tbWlncmF0aW9uLXRvb2wiLCJhdWQiOiJyYm0tbWlncmF0aW9uLXRvb2wiLCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6W119fSwibmJmIjowLCJjbGllbnRJZCI6InJibS1taWdyYXRpb24tdG9vbCIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6W119LCJzY29wZSI6WyJkZWZhdWx0Il0sImlzcyI6InQtbW9iaWxlLnBsIiwiZXhwIjoxNjc5NDExMDM3LCJ0eXBlIjoiYmVhcmVyIiwiaWF0IjoxNjc5NDA4MDM3LCJqdGkiOiIxZDI1OTQ0MS1kN2M5LTRkZTgtOTI2YS0wYmVhMDk3YWU1NjIifQ.KT-8WXlUmRwCq0PYMdRX-LOlIIackmhp1_5vsZsKqfwQR-YV_wMra89_THch22nH_r_N9P1L3M7u4p35WvdiafwQnKqczG6BVAiJfVf_6s4sKoxKzudtEclNJ8ZYh_kCZQg44wPl5dXiAJICimLddG8w1epcV6xyIWXwAsDY6xxYeICC5xYJfy9ulGXM2DrtM3LtBj_HJf-zlulL0MshYpFk-E_YjIy6Wj4Vx245P8sHxcf4oI0znmqilFEWKvQbkwh5NAOUal_1VbwXWGmH6tPhBiuqwbCJLWIFdD_EGZEnnAq15UkPnrM3u3qXM8B2_TLyhyuQHziKgBvI4Hv4LA
+    description: ""
+  - id: pair_960558a2315a41f99e096e998de35d44
+    name: X-Request-Id
+    value: "1"
+    description: ""
+  - id: pair_8a6c7ba44d6f44fcb1ef394a6c02c72e
+    name: X-Client-Id
+    value: rbm-migration-tool
+    description: ""
+  - id: pair_e1e5c89bc30d455b97adbd9b5341dd5b
+    name: x-request-tracking-id
+    value: "2"
+    description: ""
+authentication: {}
+metaSortKey: -1679403658852
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

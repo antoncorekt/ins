@@ -1,0 +1,37 @@
+_id: req_bb16dcb8e9804fa0bff05da5672c67d6
+type: Request
+parentId: fld_2cf07f258da84ba6a96bddf893876ab4
+modified: 1670577144477
+created: 1651076500253
+url: "{{gateway}}/operations/customerBills/:CUSTOMER_BILL_ID/startWorkflowProcess"
+name: manualStartWorkflowPorcess_HARDWARE
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "tasksToSkip": [
+    			"Task_115tlf3", "Activity_1jtdig5", "Activity_0s77x07", "Activity_0fm66t6"
+        ],
+        "camundaVariables": {
+    			  "VAR_DM_DOCUMENT_ID": "8aac96bb83c8e6690183d020b59b66f9",
+    			  "VAR_CINM_INTERACTION_ID": "8aac96bb83c8e6690183d020b59b66f9",
+    			  "needRetry": "false"
+        }
+
+       
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500253
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,84 @@
+_id: req_6b2aa03ef55f43988a13058d2b84c628
+type: Request
+parentId: fld_ab715bde2e9e4e98abc8a1ccc59bef93
+modified: 1652429085573
+created: 1651076500225
+url: http://localhost:8650/createBillNum?customerBillId=627e10ecf36f223e907e1199
+name: http://localhost:8650/createBillNum
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "id": "_test_arm-act-0000000011",
+      "href": "/accountBalance/transactions/arm-act-0000000011",
+      "name": "Faktura numer 555550000008",
+      "type": "DOC_INVOICE",
+      "transactionDate": "2022-02-03T18:56:00+01:00",
+      "transactionAmount": {
+        "units": "PLN",
+        "amount": 129.99
+      },
+      "openAmount": {
+        "units": "PLN",
+        "amount": 29.99
+      },
+      "balanceType": "RECEIVABLES",
+      "dueDate": "2022-01-19T01:00:00+01:00",
+      "channel": "SM",
+      "sourceEntity": {
+        "entityType": "customerBill",
+        "relatedEntityId": "61fc14ebcf2f406b76ad8518",
+        "relatedEntityUrl": "/customerBills/61fc14ebcf2f406b76ad8518"
+      },
+      "relatedAccounts": [
+        {
+          "id": "55123456789",
+          "href": "/financialAccounts/55123456789",
+          "accountType": "financialAccount"
+        },
+        {
+          "id": "3000113032",
+          "accountType": "billingAccount"
+        }
+      ],
+      "relatedTransactions": [
+        {
+          "relatedTransactionId": "arm-act-0000000013",
+          "relatedTransactionUrl": "/accountBalance/arm-act-0000000013",
+          "type": "TRX_PAYMENT",
+          "transactionDate": "2022-01-12T00:00:00+01:00",
+          "transactionAmount": {
+            "units": "PLN",
+            "amount": -100
+          },
+          "sourceEntity": {
+            "entityType": "payment",
+            "relatedEntityId": "0000000005"
+          },
+          "bindingTime": "2022-02-01T00:08:12.074+01:00",
+          "bindingAmount": {
+            "units": "PLN",
+            "amount": -100
+          }
+        }
+      ],
+      "audit": {
+        "sourceSystem": "ARM"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_84f75109f2094191925cf9f0bbdd1b54
+authentication: {}
+metaSortKey: -1651076500225
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

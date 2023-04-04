@@ -1,0 +1,134 @@
+_id: req_b1dbe32c465c49aab04ad977024bf64e
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1655895939564
+created: 1651076500297
+url: "{{gateway}}/{{customerBillsUrl}}"
+name: /customerBill PREPAID
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: >-
+    {
+        "runType": "offCycle",
+        "relatedEntities": [
+            {
+                "entityType": "product",
+                "relationType": "reference",
+                "relatedEntityId": "P-PRD-20271"
+            }
+        ],
+        "state": "paid",
+        "lastUpdate": "2020-09-29T14:09:13+02:00",
+        "amountDue": {
+            "units": "PLN",
+            "amount": 5
+        },
+        "paymentOrder": [
+            {
+                "state": "Paid",
+                "paymentRef": {
+                    "id": "8accb69474d9c00e0174d9c3d3040002"
+                },
+                "paymentMethod": {
+                    "id": "f18c0299-2b56-48e6-bdd1-9a7b5526ac27",
+                    "type": "tokenizedCard"
+                },
+                "paymentDate": "2020-09-29T14:09:08+02:00"
+            }
+        ],
+        "taxExcludedAmount": {
+            "units": "PLN",
+            "amount": 4.06
+        },
+        "taxIncludedAmount": {
+            "units": "PLN",
+            "amount": 5
+        },
+        "paymentMethod": {
+            "id": "f18c0299-2b56-48e6-bdd1-9a7b5526ac27",
+            "type": "tokenizedCard"
+        },
+        "relatedParty": [
+            {
+                "entityReferredType": "Party",
+                "id": "1149942",
+                "name": "Bart Book",
+                "role": "profile"
+            }
+        ],
+        "category": "prepaidFirstPayment",
+        "channel": {
+            "id": "OFS"
+        },
+        "externalID": "{{}}",
+        "contacts": [
+            {
+                "id": "1149942",
+                "group": "personal",
+                "type": "mobile",
+                "medium": {
+                    "number": "48608567565"
+                }
+            },
+            {
+                "id": "1149942",
+                "group": "personal",
+                "type": "email",
+                "medium": {
+                    "emailAddress": "bs1181@wp.pl"
+                }
+            }
+        ],
+        "appliedCustomerBillingRates": [
+            {
+                "id": "3066-df8f3f17c82e42ddb00483c84affc0f6",
+                "seqno": "df8f3f17c82e42ddb00483c84affc0f6",
+                "name": "Pakiet Prepaid",
+                "description": "Opłata jednorazowa",
+                "type": "oneTimeCharge",
+                "taxExcludedAmount": {
+                    "units": "PLN",
+                    "amount": 4.06
+                },
+                "taxIncludedAmount": {
+                    "units": "PLN",
+                    "amount": 5
+                },
+                "productID": "P-PRD-20272",
+                "productSpecification": {
+                    "id": "PrepaidSubPkg_base_spec",
+                    "name": "Pakiet Prepaid"
+                }
+            }
+        ],
+        "characteristics": [
+            {
+                "name": "orderURL",
+                "value": "https://eshop-oneshop-nginx-preprod.eshop.yo-digital.com/order-confirmation?id%3D1aadac31-d70e-460b-932e-13c469fe4420"
+            },
+            {
+                "name": "orderID",
+                "value": "P-ORD-1004675"
+            },
+            {
+                "name": "balanceId",
+                "value": "3066"
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9e8f4854fef3441e93ab67624754d0a6
+authentication: {}
+metaSortKey: -1651076500297
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

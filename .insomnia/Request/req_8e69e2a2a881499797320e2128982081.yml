@@ -1,0 +1,32 @@
+_id: req_8e69e2a2a881499797320e2128982081
+type: Request
+parentId: fld_ab715bde2e9e4e98abc8a1ccc59bef93
+modified: 1670191939023
+created: 1651076500237
+url: http://ngcbm-sit.kopernik.t-mobile.pl/bill/config/cache/InvoiceSectionConfig/invalidate
+name: billingProcess
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "billCycleId": "CBM-P1M-1-1-A_20220701",
+        
+    	  "billingProcessType": "ON_DEMAND",
+    	  "startedBy": "akozlovskyi"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c51b6fd765be4837a4171445d2c22fd0
+authentication: {}
+metaSortKey: -1651076500237
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

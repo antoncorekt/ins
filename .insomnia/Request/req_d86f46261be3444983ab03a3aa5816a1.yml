@@ -1,0 +1,25 @@
+_id: req_d86f46261be3444983ab03a3aa5816a1
+type: Request
+parentId: fld_19afc9e27145400d87c3ed3dc1493a2e
+modified: 1663886826624
+created: 1662054215372
+url: http://localhost:8080/billingProcess/CBM-BILL3-T/executions
+name: /billingProcess/{id}/executions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_af8d63c605ae46198d35e1acfbc95d0b
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1658440170862.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

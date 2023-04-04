@@ -1,0 +1,23 @@
+_id: req_7a63de569959440d9f3869c0c5c18799
+type: Request
+parentId: fld_ddcea7bbb8ae449584ef32bdb944b7dc
+modified: 1651076500273
+created: 1651076500273
+url: "{{workflow}}/ocsEvents/:OCS_EVENT_ID/startWorkflowProcess"
+name: startWorkflow OCS_EVENT
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500273
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

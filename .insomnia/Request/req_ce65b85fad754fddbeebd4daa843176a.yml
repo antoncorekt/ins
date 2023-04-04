@@ -1,0 +1,21 @@
+_id: req_ce65b85fad754fddbeebd4daa843176a
+type: Request
+parentId: fld_19afc9e27145400d87c3ed3dc1493a2e
+modified: 1679668051204
+created: 1670373565868
+url: "{{ _.billWOrker }}/attachments/CB493T"
+name: /attachment
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1665842254388.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

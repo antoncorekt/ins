@@ -1,0 +1,21 @@
+_id: req_182af692387f4fd3b41d00bdc517f02b
+type: Request
+parentId: fld_05ff17458ebe493fb3dc0ea3f33c9fcd
+modified: 1672398951303
+created: 1672398477739
+url: "{{ _.eventAdapter }}/actuator/health"
+name: eventAdapterActuator
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1672272325425
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

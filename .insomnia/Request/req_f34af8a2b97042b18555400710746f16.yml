@@ -1,0 +1,49 @@
+_id: req_f34af8a2b97042b18555400710746f16
+type: Request
+parentId: fld_c6bf2cc3c43f4731b74459ca3be1205b
+modified: 1651076500259
+created: 1651076500259
+url: "{{worker}}/customerBill/:CUSTOMER_BILL_ID/document/:DOCUMENT_ID"
+name: patchDocument
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"id\": 332,\r
+
+    \    \"documentCharacteristics\": [\r
+
+    \        {\r
+
+    \            \"name\": \"DAY_TRANS_NO\",\r
+
+    \            \"value\": \"20200922120348\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"name\": \"REF_DATE\",\r
+
+    \            \"value\": \"2020-09-22T10:03:48.537Z\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500259
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

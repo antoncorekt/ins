@@ -1,0 +1,23 @@
+_id: req_126ba1c0760b4c79979111a45c2358d7
+type: Request
+parentId: fld_c645a74f7591428db85493bcc2c12efa
+modified: 1651076500268
+created: 1651076500268
+url: "{{mockService}}/test/customerBill/:CUSTOMER_BILL_ID/addCalls"
+name: addCalls
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500268
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

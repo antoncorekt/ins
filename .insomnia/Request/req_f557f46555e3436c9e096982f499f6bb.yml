@@ -1,0 +1,331 @@
+_id: req_f557f46555e3436c9e096982f499f6bb
+type: Request
+parentId: fld_88546aba7ace4e5f9c7d3c4e58e53b46
+modified: 1672152568459
+created: 1667906134342
+url: "{{ _.billWOrker
+  }}/correctiveTask/createCorrectiveTask?customerBillId=CB2414P&reason=Korekta"
+name: /createCorrectionTask
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"aggregatesByCategoryDetailedContainer": {
+    		"nonUsageAggregates": {
+    			"abo_telco_adj_KS_CBM-P1M-1-1-A_20230101": {
+    				"list": [
+    					{
+    						"aggregation": {
+    							"START_DATE_STR": "01.12.2022",
+    							"END_DATE_STR": "31.12.2022"
+    						},
+    						"type": "recurringFee",
+    						"billingCycle": "P1M-1-1_20230101",
+    						"invoiceSectionId": "628b858059549965775c9e69",
+    						"invoiceLineId": "abo_telco_adj",
+    						"serviceSummaryId": "subscriptionCharges",
+    						"invoiceLineName": "Abonament - wyrównania",
+    						"tariffName": "RCS A2P",
+    						"chargeName": "Taryfa RCS A2P (PAYG)",
+    						"bamProductL0Ref": "1-2ORZ9HO",
+    						"bamProductIdRef": "1-HS1QEUM",
+    						"publicIdentifier": "1671807969470@tmpl.pl",
+    						"productSpecificationId": "RCS0002",
+    						"priceId": "1-HS1QEUM",
+    						"xwbs": "X-PLA-100026854-79",
+    						"productCategories": [
+    							{
+    								"name": "productLine",
+    								"value": "RCS A2P"
+    							},
+    							{
+    								"name": "billingProductType",
+    								"value": "billingSubscription"
+    							}
+    						],
+    						"productPriceSpecificationRefId": "telco_advance_proportional",
+    						"priceSubType": "Subscription fee",
+    						"taxRate": 23.0,
+    						"taxRateConfigId": "23%",
+    						"taxRateName": "23%",
+    						"insertDate": "2022-12-23T16:06:17.491+01:00",
+    						"usageStartDate": "2022-12-01T16:06:09+01:00",
+    						"usageEndDate": "2022-12-31T23:59:59+01:00",
+    						"eventCount": 1,
+    						"compensateEventCount": 0,
+    						"summaryLabel": "Taryfa RCS A2P (PAYG)",
+    						"detailLabel": "Taryfa RCS A2P (PAYG)",
+    						"billingCyclePeriodOffset": "CURRENT",
+    						"billPeriod": {
+    							"startDateTime": "2022-12-01T00:00:00+01:00",
+    							"endDateTime": "2022-12-31T23:59:59.999+01:00"
+    						},
+    						"billingDate": "2023-01-01T00:00:00+01:00",
+    						"billCycleSpecificationId": "P1M-1-1",
+    						"id": "[customerId=1671807964556][billingAccountId=1807964579][type=recurringFee][tax=23][summaryLabel=Taryfa RCS A2P (PAYG)][seq=1][billingCyclePeriodOffset=CURRENT][billingCycle=P1M-1-1_20230101]",
+    						"billingAccountId": "1807964579",
+    						"taxExcludedAmount": {
+    							"units": "PLN",
+    							"amount": 2000.00
+    						}
+    					}
+    				],
+    				"sum": 2000.00
+    			},
+    			"abo_telco_KS_P1M-1-1_20230101": {
+    				"list": [
+    					{
+    						"aggregation": {
+    							"START_DATE_STR": "01.01.2023",
+    							"END_DATE_STR": "31.01.2023"
+    						},
+    						"type": "recurringFee",
+    						"billingCycle": "P1M-1-1_20230101",
+    						"invoiceSectionId": "628b857f59549965775c9e68",
+    						"invoiceLineId": "abo_telco",
+    						"serviceSummaryId": "subscriptionCharges",
+    						"invoiceLineName": "Abonament",
+    						"tariffName": "RCS A2P",
+    						"chargeName": "Taryfa RCS A2P (PAYG)",
+    						"bamProductL0Ref": "1-2ORZ9HO",
+    						"bamProductIdRef": "1-HS1QEUM",
+    						"publicIdentifier": "1671807969470@tmpl.pl",
+    						"productSpecificationId": "RCS0002",
+    						"priceId": "1-HS1QEUM",
+    						"xwbs": "X-PLA-100026854-79",
+    						"productCategories": [
+    							{
+    								"name": "productLine",
+    								"value": "RCS A2P"
+    							},
+    							{
+    								"name": "billingProductType",
+    								"value": "billingSubscription"
+    							}
+    						],
+    						"productPriceSpecificationRefId": "telco_advance_proportional",
+    						"priceSubType": "Subscription fee",
+    						"taxRate": 23.0,
+    						"taxRateConfigId": "23%",
+    						"taxRateName": "23%",
+    						"insertDate": "2022-12-23T16:06:18.429+01:00",
+    						"usageStartDate": "2023-01-01T00:00:00+01:00",
+    						"usageEndDate": "2023-01-31T23:59:59+01:00",
+    						"eventCount": 1,
+    						"compensateEventCount": 0,
+    						"summaryLabel": "Taryfa RCS A2P (PAYG)",
+    						"detailLabel": "Taryfa RCS A2P (PAYG)",
+    						"billingCyclePeriodOffset": "NEXT",
+    						"billPeriod": {
+    							"startDateTime": "2022-12-01T00:00:00+01:00",
+    							"endDateTime": "2022-12-31T23:59:59.999+01:00"
+    						},
+    						"billingDate": "2023-01-01T00:00:00+01:00",
+    						"billCycleSpecificationId": "P1M-1-1",
+    						"id": "[customerId=1671807964556][billingAccountId=1807964579][type=recurringFee][tax=23][summaryLabel=Taryfa RCS A2P (PAYG)][seq=1][billingCyclePeriodOffset=NEXT][billingCycle=P1M-1-1_20230101]",
+    						"billingAccountId": "1807964579",
+    						"taxExcludedAmount": {
+    							"units": "PLN",
+    							"amount": 2000.00
+    						}
+    					}
+    				],
+    				"sum": 2000.00
+    			},
+    			"ontime_telco_KS_CBM-P1M-1-1-A_20230101": {
+    				"list": [
+    					{
+    						"aggregation": {
+    							"START_DATE_STR": "01.12.2022"
+    						},
+    						"type": "activationFee",
+    						"billingCycle": "P1M-1-1_20230101",
+    						"invoiceSectionId": "628b858259549965775c9e6e",
+    						"invoiceLineId": "ontime_telco",
+    						"serviceSummaryId": "oneoffCharges",
+    						"invoiceLineName": "Opłaty naliczane jednorazowo",
+    						"tariffName": "RCS A2P",
+    						"chargeName": "Autoryzacja RCS A2P grupa 2",
+    						"bamProductL0Ref": "1-2ORZ9HO",
+    						"bamProductIdRef": "1-3QRY8R7",
+    						"publicIdentifier": "1671807969470@tmpl.pl",
+    						"productSpecificationId": "RCS0012",
+    						"priceId": "1-3QRY8R7",
+    						"xwbs": "X-PLA-100026854-79",
+    						"productCategories": [
+    							{
+    								"name": "productLine",
+    								"value": "RCS A2P"
+    							},
+    							{
+    								"name": "billingProductType",
+    								"value": "billingSubscription"
+    							}
+    						],
+    						"productPriceSpecificationRefId": "telco_past_nonproportional",
+    						"priceSubType": "One-time fee",
+    						"taxRate": 23.0,
+    						"taxRateConfigId": "23%",
+    						"taxRateName": "23%",
+    						"insertDate": "2022-12-23T16:06:19.438+01:00",
+    						"usageStartDate": "2022-12-01T16:06:12+01:00",
+    						"eventCount": 1,
+    						"compensateEventCount": 0,
+    						"summaryLabel": "Autoryzacja RCS A2P grupa 2",
+    						"detailLabel": "Autoryzacja RCS A2P grupa 2",
+    						"billingCyclePeriodOffset": "CURRENT",
+    						"billPeriod": {
+    							"startDateTime": "2022-12-01T00:00:00+01:00",
+    							"endDateTime": "2022-12-31T23:59:59.999+01:00"
+    						},
+    						"billingDate": "2023-01-01T00:00:00+01:00",
+    						"billCycleSpecificationId": "P1M-1-1",
+    						"id": "[customerId=1671807964556][billingAccountId=1807964579][type=activationFee][tax=23][summaryLabel=Autoryzacja RCS A2P grupa 2][seq=1][billingCyclePeriodOffset=CURRENT][billingCycle=P1M-1-1_20230101]",
+    						"billingAccountId": "1807964579",
+    						"taxExcludedAmount": {
+    							"units": "PLN",
+    							"amount": 1000.00
+    						}
+    					},
+    					{
+    						"aggregation": {
+    							"START_DATE_STR": "01.12.2022"
+    						},
+    						"type": "activationFee",
+    						"billingCycle": "P1M-1-1_20230101",
+    						"invoiceSectionId": "628b858259549965775c9e6f",
+    						"invoiceLineId": "ontime_telco",
+    						"serviceSummaryId": "oneoffCharges",
+    						"invoiceLineName": "Opłaty naliczane jednorazowo",
+    						"tariffName": "RCS A2P",
+    						"chargeName": "Opłata aktywacyjna RCS A2P",
+    						"bamProductL0Ref": "1-2ORZ9HO",
+    						"bamProductIdRef": "1-I1R9X8G",
+    						"publicIdentifier": "1671807969470@tmpl.pl",
+    						"productSpecificationId": "RCS0003",
+    						"priceId": "1-I1R9X8G",
+    						"xwbs": "X-PLA-100026854-79",
+    						"productCategories": [
+    							{
+    								"name": "productLine",
+    								"value": "RCS A2P"
+    							},
+    							{
+    								"name": "billingProductType",
+    								"value": "billingSubscription"
+    							}
+    						],
+    						"productPriceSpecificationRefId": "telco_past_nonproportional",
+    						"priceSubType": "Activation Charge",
+    						"taxRate": 23.0,
+    						"taxRateConfigId": "23%",
+    						"taxRateName": "23%",
+    						"insertDate": "2022-12-23T16:06:20.467+01:00",
+    						"usageStartDate": "2022-12-01T16:06:11+01:00",
+    						"eventCount": 1,
+    						"compensateEventCount": 0,
+    						"summaryLabel": "Opłata aktywacyjna RCS A2P",
+    						"detailLabel": "Opłata aktywacyjna RCS A2P",
+    						"billingCyclePeriodOffset": "CURRENT",
+    						"billPeriod": {
+    							"startDateTime": "2022-12-01T00:00:00+01:00",
+    							"endDateTime": "2022-12-31T23:59:59.999+01:00"
+    						},
+    						"billingDate": "2023-01-01T00:00:00+01:00",
+    						"billCycleSpecificationId": "P1M-1-1",
+    						"id": "[customerId=1671807964556][billingAccountId=1807964579][type=activationFee][tax=23][summaryLabel=Opłata aktywacyjna RCS A2P][seq=1][billingCyclePeriodOffset=CURRENT][billingCycle=P1M-1-1_20230101]",
+    						"billingAccountId": "1807964579",
+    						"taxExcludedAmount": {
+    							"units": "PLN",
+    							"amount": 1000.00
+    						},
+    						"correction": {
+    							  "afterCorrection": 250
+    						}
+    					}
+    				],
+    				"sum": 2000.00
+    			},
+    			"cyclic_telco_KS_CBM-P1M-1-1-A_20230101": {
+    				"list": [
+    					{
+    						"aggregation": {
+    							"START_DATE_STR": "01.12.2022",
+    							"END_DATE_STR": "31.12.2022"
+    						},
+    						"type": "recurringFee",
+    						"billingCycle": "P1M-1-1_20230101",
+    						"invoiceSectionId": "628b858159549965775c9e6b",
+    						"invoiceLineId": "cyclic_telco",
+    						"serviceSummaryId": "recurringCharges",
+    						"invoiceLineName": "Opłaty Cykliczne",
+    						"tariffName": "RCS A2P",
+    						"chargeName": "Utrzymanie RCS A2P grupa 2",
+    						"bamProductL0Ref": "1-2ORZ9HO",
+    						"bamProductIdRef": "1-LTA6ZW2",
+    						"publicIdentifier": "1671807969470@tmpl.pl",
+    						"productSpecificationId": "RCS0015",
+    						"priceId": "1-LTA6ZW2",
+    						"xwbs": "X-PLA-100026854-79",
+    						"productCategories": [
+    							{
+    								"name": "productLine",
+    								"value": "RCS A2P"
+    							},
+    							{
+    								"name": "billingProductType",
+    								"value": "billingSubscription"
+    							}
+    						],
+    						"productPriceSpecificationRefId": "telco_past_proportional",
+    						"priceSubType": "Recurring fee",
+    						"taxRate": 23.0,
+    						"taxRateConfigId": "23%",
+    						"taxRateName": "23%",
+    						"insertDate": "2022-12-23T16:06:21.472+01:00",
+    						"usageStartDate": "2022-12-01T16:06:11+01:00",
+    						"usageEndDate": "2022-12-31T23:59:59+01:00",
+    						"eventCount": 1,
+    						"compensateEventCount": 0,
+    						"summaryLabel": "Utrzymanie RCS A2P grupa 2",
+    						"detailLabel": "Utrzymanie RCS A2P grupa 2",
+    						"billingCyclePeriodOffset": "CURRENT",
+    						"billPeriod": {
+    							"startDateTime": "2022-12-01T00:00:00+01:00",
+    							"endDateTime": "2022-12-31T23:59:59.999+01:00"
+    						},
+    						"billingDate": "2023-01-01T00:00:00+01:00",
+    						"billCycleSpecificationId": "P1M-1-1",
+    						"id": "[customerId=1671807964556][billingAccountId=1807964579][type=recurringFee][tax=23][summaryLabel=Utrzymanie RCS A2P grupa 2][seq=1][billingCyclePeriodOffset=CURRENT][billingCycle=P1M-1-1_20230101]",
+    						"billingAccountId": "1807964579",
+    						"taxExcludedAmount": {
+    							"units": "PLN",
+    							"amount": 250.00
+    						}
+    					}
+    				],
+    				"sum": 250.00
+    			}
+    		},
+    		"totalAmount": 6250.00,
+    		"taxRateConfigId": "23%"
+    	}
+
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e3b0c8dbb41144a2ab3a0312ea24340e
+authentication: {}
+metaSortKey: -1667906134342
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

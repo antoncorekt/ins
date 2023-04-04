@@ -1,0 +1,34 @@
+_id: req_861eab99bd4144aebf1366cd1f5a52d9
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1656628135774
+created: 1655904739333
+url: http://cbm-sit.kopernik.t-mobile.pl/cbm/sit/api/v1/external/documents
+name: /documents
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "62b318306805b27d2070cb64"
+    }
+parameters: []
+headers:
+  - id: pair_94ea6e45406c4358a75bad17e57d7524
+    name: x-request-callbackurl
+    value: http://toofstest.test.pl
+    description: ""
+  - id: pair_45c0da4c116e492db8750af181db62b5
+    name: content-type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1655508132165
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

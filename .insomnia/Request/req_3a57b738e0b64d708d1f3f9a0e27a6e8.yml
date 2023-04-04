@@ -1,0 +1,133 @@
+_id: req_3a57b738e0b64d708d1f3f9a0e27a6e8
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1678354232266
+created: 1678354203506
+url: http://cbm-dev2.kopernik.t-mobile.pl/cbm/api/v1/external/customerBills
+name: /customerBill MAGENTA_WINGS first
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "type": "firstSubscription",
+        "billType": "oneTimeInvoice",
+        "runType": "offCycle",
+        "taxableSupplyDate": "2022-09-01",
+        "billingAccount": {
+            "id": "87707588"    },
+        "category": "normal",
+        "billPeriod": {
+            "startDateTime": "2022-08-31T22:00:00Z",
+            "endDateTime": "2022-09-30T22:59:59.999Z"    },
+        "taxIncludedAmount": {
+            "units": "PLN",
+            "amount": 0    },
+        "remainingAmount": {
+            "units": "PLN",
+            "amount": 0    },
+        "relatedParty": [
+            {
+                "entityReferredType": "Party",
+                "id": "6115996",
+                "name": "KRZYSZTOF XYZ",
+                "role": "profile"        }
+        ],
+        "relatedEntities": [
+            {
+                "entityType": "serviceID",
+                "relationType": "reference",
+                "relatedEntityId": "55572824597"        },
+            {
+                "entityType": "mainBillingProductId",
+                "relationType": "reference",
+                "relatedEntityId": "c96274818"        },
+            {
+                "entityType": "product",
+                "relationType": "reference",
+                "relatedEntityId": "P-PRD-6812545"        },
+            {
+                "entityType": "order",
+                "relationType": "reference",
+                "relatedEntityId": "062224222626167"        }
+        ],
+        "correlatorId": "062224222626167",
+        "paymentMethod": {
+            "id": "1d62e548-8665-43bc-4574-e4b7c2e91138",
+            "paymentMethodValue": {
+                "type": "bankAccountTransfer"        }
+        },
+        "appliedPayment": [
+            {
+                "appliedAmount": {
+                    "units": "PLN",
+                    "amount": 0            },
+                "payment": {
+                    "id": "1d62e548-8665-43bc-91f3-e4b7c2e91138",
+                    "paymentDate": "2022-09-01T06:34:13Z",
+                    "amount": {
+                        "units": "PLN",
+                        "amount": 0                }
+                }
+            }
+        ],
+        "appliedCustomerBillingRates": [
+            {
+                "name": "Op\\u0142ata Magenta",
+                "description": "Op\\u0142ata Magenta",
+                "aggregateLevel": "detailed",
+                "type": "oneTimeCharge",
+                "taxIncludedAmount": {
+                    "units": "PLN",
+                    "amount": 0            },
+                "appliedTax": [
+                    {
+                        "taxRate": 23                }
+                ],
+                "productRef": {
+                    "id": "P-PRD-2694879"            },
+                "relatedEntities": [
+                    {
+                        "entityType": "productSpecification",
+                        "entityName": "productSpecificationName",
+                        "relationType": "reference",
+                        "relatedEntityId": "redbullSubs_40GB_spec"                }
+                ]
+            }
+        ],
+        "characteristics": [
+            {
+                "name": "externalId",
+                "value": "062224222d626167"        },
+            {
+                "name": "channel",
+                "value": "OFS"        }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_91da5ee629ca4552a578794cc6ff8472
+  - name: x-request-session-id
+    value: session-asascs
+    id: pair_587b3710fc6d43b8b2dfdc72f908b6d6
+    disabled: true
+  - name: x-request-tracking-id
+    value: traking-ascsaca-1
+    id: pair_36e6d74ecb5f4df981172e0732209550
+    disabled: true
+  - name: x-request-id
+    value: request-fdbdcsd
+    id: pair_8bd2271a6bd94390a9023645c4999309
+    disabled: true
+authentication: {}
+metaSortKey: -1651076500302.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: true
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

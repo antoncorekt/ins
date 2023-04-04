@@ -1,0 +1,31 @@
+_id: req_6998be55434e4e768c85e6b625001c56
+type: Request
+parentId: fld_5c79a72211bf4601ad9feef7d3b744a3
+modified: 1651076500218
+created: 1651076500218
+url: "{{evagrSIT}}/config/serviceSummarySections"
+name: /serviceSummarySections
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"id\":\"oneoffCharges\",\r
+
+    \    \"xmlAttribute\": \"oneoffCharges\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500218
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

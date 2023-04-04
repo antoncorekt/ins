@@ -1,0 +1,258 @@
+_id: req_aff81165bd36407aa289a5ef240aec24
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1679409764102
+created: 1676380213425
+url: http://localhost:8088/v1/external/customerBills
+name: /customerBill MAGENTA_WINGS
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "recurringSubscription",
+    	"billType": "oneTimeInvoice",
+    	"runType": "offCycle",
+    	"state": "new",
+    	"taxableSupplyDate": "2022-09-01",
+    	"billPeriod": {
+    		"startDateTime": "2022-08-30T22:00:00Z",
+    		"endDateTime": "2022-09-29T22:59:59.999Z"
+    	},
+    	"taxIncludedAmount": {
+    		"units": "PLN",
+    		"amount": 18.73
+    	},
+    	"appliedPayment": [
+    		{
+    			"appliedAmount": {
+    				"units": "PLN",
+    				"amount": 18.73
+    			},
+    			"payment": {
+    				"id": "1d62e548-8665-43bc-91f3-e4b7c2e91138",
+    				"paymentDate": "2022-09-01T06:34:13Z",
+    				"amount": {
+    					"units": "PLN",
+    					"amount": 18.73
+    				}
+    			}
+    		}
+    	],
+    	"billingAccount": {
+    		"id": "87682400",
+    		"businessId": "1.13215210",
+    		"characteristics": [
+    			{
+    				"name": "billingSystem",
+    				"value": "BSCS"
+    			},
+    			{
+    				"name": "paymentDueDays",
+    				"value": "14"
+    			},
+    			{
+    				"name": "billingInventoryId",
+    				"value": "87682400"
+    			},
+    			{
+    				"name": "BSCS",
+    				"value": "BSCS"
+    			},
+    			{
+    				"name": "businessId",
+    				"value": "1.13215210"
+    			}
+    		]
+    	},
+    	"billDeliverySnapshots": [
+    		{
+    			"billingCycleSpecification": {
+    				"id": "01"
+    			}
+    		}
+    	],
+    	"paymentMethod": {
+    		"id": "1d62e548-8665-43bc-4574-e4b7c2e91138",
+    		"type": "bankAccountTransfer"
+    	},
+    	"billPayer": {
+    		"partyValue": {
+    			"id": "1",
+    			"role": "billPayer",
+    			"type": "individual",
+    			"entityType": "Party",
+    			"individual": {
+    				"givenName": "Zmienione",
+    				"familyName": "Zmienione2",
+    				"middleName": "Zmienione1",
+    				"title": "PANI",
+    				"individualIdentifications": [
+    					{
+    						"identificationId": "87010103322",
+    						"name": "PESEL",
+    						"type": "socialSecurityNumber"
+    					},
+    					{
+    						"identificationId": "125-125-12-12",
+    						"name": "NIP",
+    						"type": "vatNumber"
+    					}
+    				]
+    			},
+    			"contacts": [
+    				{
+    					"type": "address",
+    					"role": {
+    						"name": "main"
+    					},
+    					"medium": {
+    						"address": {
+    							"streetNr": "125a",
+    							"streetName": "Nowa",
+    							"postcode": "05-600",
+    							"city": "City",
+    							"stateOrProvince": "Lubelskie",
+    							"country": "UKR",
+    							"characteristics": [
+    								{
+    									"name": "invalidAddressFormat",
+    									"value": "true"
+    								}
+    							]
+    						}
+    					}
+    				}
+    			]
+    		}
+    	},
+    	"billPayee": {
+    		"partyValue": {
+    			"organization": {
+    				"isHeadOffice": true,
+    				"tradingName": "T-Mobile Polska",
+    				"nameType": "S.A",
+    				"organizationIdentifications": [
+    					{
+    						"identificationId": "526-104-05-67",
+    						"name": "NIP",
+    						"type": "vatNumber"
+    					},
+    					{
+    						"identificationId": "011417295",
+    						"name": "REGON",
+    						"type": "subjectRegistrationId"
+    					}
+    				]
+    			},
+    			"contacts": [
+    				{
+    					"group": "business",
+    					"type": "address",
+    					"medium": {
+    						"address": {
+    							"streetNr": "12",
+    							"streetName": "Marynarska",
+    							"postcode": "02-674",
+    							"city": "Warszawa",
+    							"stateOrProvince": "mazowieckie",
+    							"country": "POL"
+    						}
+    					}
+    				}
+    			]
+    		}
+    	},
+    	"relatedParty": [
+    		{
+    			"entityReferredType": "Party",
+    			"id": "6115996",
+    			"name": "KRZYSZTOF XYZA",
+    			"role": "profile"
+    		}
+    	],
+    	"relatedEntities": [
+    		{
+    			"entityType": "serviceID",
+    			"relationType": "reference",
+    			"relatedEntityId": "48694227132"
+    		},
+    		{
+    			"entityType": "product",
+    			"relationType": "reference",
+    			"relatedEntityId": "P-PRD-6812545"
+    		},
+    		{
+    			"entityType": "mainBillingProductId",
+    			"relationType": "reference",
+    			"relatedEntityId": "96239752"
+    		}
+    	],
+    	"correlatorId": "130",
+    	"category": "normal",
+    	"channel": {
+    		"id": "OFS"
+    	},
+    	"externalID": "164564333333d312",
+    	"appliedCustomerBillingRates": [
+    		{
+    			"id": "122114001",
+    			"name": "Opłata Magenta",
+    			"description": "Opłata Magenta",
+    			"aggregateLevel": "detailed",
+    			"type": "oneTimeCharge",
+    			"taxIncludedAmount": {
+    				"units": "PLN",
+    				"amount": 18.73
+    			},
+    			"appliedTax": [
+    				{
+    					"taxRate": 23
+    				}
+    			],
+    			"productRef": {
+    				"id": "P-PRD-2694879"
+    			},
+    			"relatedEntities": [
+    				{
+    					"entityType": "productSpecification",
+    					"relationType": "reference",
+    					"relatedEntityId": "magentaWings_spec_id"
+    				}
+    			]
+    		}
+    	],
+    	"characteristics": [
+    		{
+    			"name": "isVATPayer",
+    			"value": "false"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_91da5ee629ca4552a578794cc6ff8472
+  - name: x-request-session-id
+    value: session-asascs
+    id: pair_587b3710fc6d43b8b2dfdc72f908b6d6
+    disabled: true
+  - name: x-request-tracking-id
+    value: traking-ascsaca-1
+    id: pair_36e6d74ecb5f4df981172e0732209550
+    disabled: true
+  - name: x-request-id
+    value: request-fdbdcsd
+    id: pair_8bd2271a6bd94390a9023645c4999309
+    disabled: true
+authentication: {}
+metaSortKey: -1651076500304.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: true
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_ad65cff33f874dbb99170359703d8b4f
+type: Request
+parentId: fld_133abf85cf9440099ccae382822a18fb
+modified: 1679668025107
+created: 1671658526365
+url: "{{ _.billWOrker }}/customerBills?rql=eq(billNo,T80003710323)"
+name: GET/customerBill
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671658526365
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

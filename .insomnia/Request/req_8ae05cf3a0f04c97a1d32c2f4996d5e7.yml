@@ -1,0 +1,40 @@
+_id: req_8ae05cf3a0f04c97a1d32c2f4996d5e7
+type: Request
+parentId: fld_494890973bfd4cd58efaa9195727cabd
+modified: 1678105358720
+created: 1667212717790
+url: https://idm.t-mobile.pl/oauth/token
+name: /ouath/token
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_3be588a9abcc41f9b8c185212f5bd229
+    name: grant_type
+    value: client_credentials
+    description: ""
+  - id: pair_5b2ef52d320545189497632ccfe01413
+    name: client_id
+    value: cbm
+    description: ""
+  - id: pair_c3a9efc3087b46b1a23e977e71657902
+    name: client_secret
+    value: >
+      eyJraWQiOiJjMWQyN2UwZC01MjE0LTQzYjgtYmRmOC1iMDMwNTBkMTQyMjEiLCJ0eXBlIjoiSldUIiwiYWxnIjoiUFM1MTIifQ.eyJzdWIiOiJjYm0iLCJhdWQiOiJ0LW1vYmlsZS5wbCIsImlzcyI6ImNibSIsImlhdCI6MTY2NzIxMjY2NH0.ynW3Xes0MYHGiC_w6jQCEct7tqjulyiuS8p1dUyAWEFVZHaMhJABTh2Jn159Vr7xvQ0xke2TF_bPyqF3VntR4B9TH8pqdQPKxUb954GD0fDaYUpcCR2l0wsCzymLyOaRF78VoomFZIhd81EqfyA2PFTQ_nLt8bZ7BL1OWca3d2Ke6zy2XJEBLPiqnFQfPenrPFpdu76S_mElMXUnstlt29KDCdp2orG-43KJ9G4m4GYrvu8VEmAk5bc6TnlraEyjplLiOW-IR6mQJeV5aRCRXetrYrsZ2Juxc6g-xczLjzIlYWnF45gsMO2M9vbGI8yLE17w7CLh-VP3ZCosMWuAuA
+    description: ""
+    type: text
+    multiline: text/plain
+headers:
+  - id: pair_9813b9dad020404aa206cceaf5afd989
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+authentication: {}
+metaSortKey: -1667212717790
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

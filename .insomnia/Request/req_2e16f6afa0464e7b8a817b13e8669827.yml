@@ -1,0 +1,31 @@
+_id: req_2e16f6afa0464e7b8a817b13e8669827
+type: Request
+parentId: fld_5c79a72211bf4601ad9feef7d3b744a3
+modified: 1651076500216
+created: 1651076500216
+url: "{{evagrSIT}}/config/serviceSummarySections/oneoffCharges"
+name: GET ALL /serviceSummarySections
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"id\":\"subscriptionCharges\",\r
+
+    \    \"xmlAttribute\": \"subscriptionCharges\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500216
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

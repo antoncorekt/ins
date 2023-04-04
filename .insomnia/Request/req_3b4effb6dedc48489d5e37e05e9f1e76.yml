@@ -1,0 +1,21 @@
+_id: req_3b4effb6dedc48489d5e37e05e9f1e76
+type: Request
+parentId: fld_133abf85cf9440099ccae382822a18fb
+modified: 1679049527468
+created: 1678665085756
+url: "{{ _.billWOrker }}/customerBills/CB1290T/itemizedBillDocuments?rql=ne(id,id)"
+name: GET/customerBill/{id}/itemizedBills
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671604598485
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

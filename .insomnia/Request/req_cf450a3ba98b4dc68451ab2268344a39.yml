@@ -1,0 +1,49 @@
+_id: req_cf450a3ba98b4dc68451ab2268344a39
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1651076500289
+created: 1651076500289
+url: "{{gateway}}/{{customerBillsUrl}}/:CUSTOMER_BILL_ID"
+name: /customerBills/{ID} Hardware patch appliedCBRates
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"appliedCustomerBillingRates\": [\r
+
+    \        {\r
+
+    \            \"id\": \"32341-1\",\r
+
+    \            \"characteristic\": [\r
+
+    \                {\r
+
+    \                    \"name\": \"serialNumber\",\r
+
+    \                    \"value\": \"test\"\r
+
+    \                }\r
+
+    \            ]\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500289
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

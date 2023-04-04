@@ -1,0 +1,37 @@
+_id: req_bab1e586dd5c480280b0e464a25b1cc6
+type: Request
+parentId: fld_69efdc6a3de64b9591d948449afee835
+modified: 1656441150620
+created: 1655976152578
+url: http://dis-sit.unx.t-mobile.pl:8080/cinm/api/v2/partyInteractions
+name: /interactions
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: '{"name":"Faktura
+    korygująca","entityType":"Email","interactionDate":{"startDateTime":"2022-06-23T11:08:26.222397+02:00"},"description":"Faktura
+    korygująca","status":"created","subStatus":"created","statusChangeDate":"2022-06-23T11:08:26.222397+02:00","direction":"outbounds","channels":[{"id":"EMAIL","name":"e-mail"}],"relatedParties":[{"entityReferredType":"Profile","id":"partyIdTest","name":"test"}],"contacts":[{"name":"email","relatedParty":{"entityReferredType":"Profile","id":"partyIdTest","name":"test"},"group":"personal","type":"email","medium":{"emailAddress":"BBC920160@gmail.com"},"role":{"name":"deliverTo"}},{"name":"email","type":"email","medium":{"emailAddress":"moj@t-mobile.pl"},"role":{"name":"deliverFrom"}}],"relatedEntities":[{"entityReferredType":"order"},{"entityReferredType":"agreement"},{"id":"70589","entityReferredType":"customerBill","name":"990136150622"}],"categories":[{"id":"sourceSystem","characteristics":[{"name":"value","value":"CBM"}]}]}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_634749cd70c84885a2dac152dcc79069
+  - id: pair_1c15cdbb41c648b28b774ba1d90064a0
+    name: Authorization
+    value: Bearer
+      eyJraWQiOiJpMk1HRWIrQnVpbkNBSVVLVnljeGl3PT0iLCJhbGciOiJQUzUxMiJ9.eyJzdWIiOiJjYm0iLCJhdWQiOiJjYm0iLCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6W119fSwibmJmIjowLCJjbGllbnRJZCI6ImNibSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6W119LCJzY29wZSI6WyJkZWZhdWx0Il0sImlzcyI6InQtbW9iaWxlLnBsIiwiZXhwIjoxNjU1OTc5ODg1LCJ0eXBlIjoiYmVhcmVyIiwiaWF0IjoxNjU1OTc2Mjg1LCJqdGkiOiI2NjQ1ZGY3Yi1lNmFiLTQ0N2ItODViNy1jYTU3YTk3NjVkZjUifQ.HGqZk50K1G3pKfAVb4qdEwf6-m0oafbwVB2ek-v8KlD_aLWohVd6TUIPTWe3VycpLMOGEHvJOOjpFk1XyVbBu916hW1sRUrvKwzCE1UEfpf9m6VX1Xrr8VDmq6N066iPmzhTb_VPgrctW9BX15mLMDCO-eZdDmP1F5eEnzk9StswguQQJpTVj6ksDV-prldylo20ZcrzIDzg90OQCbJhnK6kuf95gmR65lgK8W_x9W989Jfo1q58dO0GaDAK4s9D1WaPdY2clqapSuIzsQlaHS7WdcPARCjHTOVPbAkc4qapadSxdxzhmvRabwutVHVP_kRKkkgmfg-S7jkq3hW6vA
+    description: ""
+  - id: pair_d4e880df1c6d4f3f861878d8fb125e67
+    name: client_id
+    value: cbm
+    description: ""
+authentication: {}
+metaSortKey: -1655976152578
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

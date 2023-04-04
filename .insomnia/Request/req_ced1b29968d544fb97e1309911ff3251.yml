@@ -1,0 +1,47 @@
+_id: req_ced1b29968d544fb97e1309911ff3251
+type: Request
+parentId: fld_69ff64df21f740ee98ea126e02c07056
+modified: 1674481982788
+created: 1659605317666
+url: http://ngcbm-sit.kopernik.t-mobile.pl/cbm/sit/eventbus/api/events/customerBills/CB2514P?processId=CBM209T
+name: ngcbm POST cb SIT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"id":"62d81c5de0d7cf02646e25f1","type":"standard","href":"/customerBills/62d81c5de0d7cf02646e25f1","name":"Faktura
+    billingowa","billNo":"800000020722","billType":"monthlyInvoice","runType":"onCycle","category":"normal","state":"new","lastUpdate":"2022-07-20T17:16:46.752+02:00","billDate":"2022-07-31","billCycleRef":{"id":"CBM-P1M-1-1-A_20220801"},"billPeriod":{"startDateTime":"2022-07-01T00:00:00+02:00","endDateTime":"2022-07-31T23:59:59.999+02:00"},"amountDue":{"units":"PLN","amount":41359.73},"paymentDueDate":"2022-08-14","remainingAmount":{"units":"PLN","amount":41359.73},"taxExcludedAmount":{"units":"PLN","amount":33625.80},"taxIncludedAmount":{"units":"PLN","amount":41359.73},"billDocument":[{"id":"62d81c5de0d7cf02646e25f1","name":"XML4DEG","mimeType":"application/xml","sizeUnit":"bytes","url":"http://ngcbm-evagr-mongo-srv/attachments/62d81c5de0d7cf02646e25f1"}],"appliedCustomerBillingRates":[{"id":"ontime_telco_KS_CBM-P1M-1-1-A_20220801","name":"Opłaty
+    naliczane jednorazowo","description":"Opłaty naliczane
+    jednorazowo","externalId":"62d81c5de0d7cf02646e25f1_1","aggregateLevel":"invoiceLine","taxExcludedAmount":{"units":"PLN","amount":1000.00},"billingAccountRef":{"id":"3000055312"},"periodCoverage":{"startDateTime":"2022-07-01T00:00:00+02:00","endDateTime":"2022-07-31T23:59:59.999+02:00"},"appliedTax":[{"taxRate":23,"taxCategory":"telco"}],"bill":{"id":"62d81c5de0d7cf02646e25f1"}},{"id":"abo_telco_KS_CBM-P1M-1-1-A_20220801","name":"Abonament","description":"Abonament","externalId":"62d81c5de0d7cf02646e25f1_2","aggregateLevel":"invoiceLine","taxExcludedAmount":{"units":"PLN","amount":2000.00},"billingAccountRef":{"id":"3000055312"},"periodCoverage":{"startDateTime":"2022-08-01T00:00:00+02:00","endDateTime":"2022-08-31T23:59:59.999+02:00"},"appliedTax":[{"taxRate":23,"taxCategory":"telco"}],"bill":{"id":"62d81c5de0d7cf02646e25f1"}},{"id":"cyclic_telco_KS_CBM-P1M-1-1-A_20220801","name":"Opłaty
+    Cykliczne","description":"Opłaty
+    Cykliczne","externalId":"62d81c5de0d7cf02646e25f1_3","aggregateLevel":"invoiceLine","taxExcludedAmount":{"units":"PLN","amount":29400.00},"billingAccountRef":{"id":"3000055312"},"periodCoverage":{"startDateTime":"2022-07-01T00:00:00+02:00","endDateTime":"2022-07-31T23:59:59.999+02:00"},"appliedTax":[{"taxRate":23,"taxCategory":"telco"}],"bill":{"id":"62d81c5de0d7cf02646e25f1"}},{"id":"abo_telco_adj_KS_CBM-P1M-1-1-A_20220801","name":"Abonament
+    - wyrównania","description":"Abonament -
+    wyrównania","externalId":"62d81c5de0d7cf02646e25f1_4","aggregateLevel":"invoiceLine","taxExcludedAmount":{"units":"PLN","amount":1225.80},"billingAccountRef":{"id":"3000055312"},"periodCoverage":{"startDateTime":"2022-07-01T00:00:00+02:00","endDateTime":"2022-07-31T23:59:59.999+02:00"},"appliedTax":[{"taxRate":23,"taxCategory":"telco"}],"bill":{"id":"62d81c5de0d7cf02646e25f1"}}],"billingAccount":{"id":"3000055312","businessId":"businessId","characteristics":[{"name":"billingSystem","value":"CBM"},{"name":"entityType","value":"TestBillingAccount"}]},"billDeliverySnapshots":[{"billingCycleSpecification":{"id":"CBM-P1M-1-1-A","billingDateShift":1,"frequency":"P1M"},"billDestination":{"id":"3000055312_billDestination_emailAddress","name":"Antoni
+    Kaźmierczak","type":"emailAddress","postalAddress":{"id":"1-66Y53KI","streetNr":"6/46","streetName":"1
+    Maja","postcode":"09-400","city":"Płock","stateOrProvince":"mazowieckie","country":"Poland","characteristics":[{"name":"postOffice"}]},"emailAddress":"antoni.kazmierczak@tmobile.pl"},"billFormat":{"id":"firstPageAndSummaryTables_pdf_xlsx"},"billPresentationMedia":{"id":"electronicPresentationMedia"}}],"taxItem":[{"taxRate":23,"taxCategory":"telco","taxAmount":{"units":"PLN","amount":7733.93},"taxExcludedAmount":{"units":"PLN","amount":33625.80},"taxIncludedAmount":{"units":"PLN","amount":41359.73}}],"paymentMethod":{"id":"PL20103019577777830000553125","name":"bankAccountTransfer"},"billReceiver":{"id":"1003615525_3000055312_billReceiver","partyValue":{"id":"1003615525_3000055312_billReceiver","name":"Antoni
+    Kaźmierczak","role":"billReceiver","type":"organization","entityType":"Party","organization":{"tradingName":"Antoni
+    Kaźmierczak"},"contacts":[{"id":"1-66Y53KI","group":"business","type":"address","role":{"name":"main"},"medium":{"address":{"id":"1-66Y53KI","streetNr":"6/46","streetName":"1
+    Maja","postcode":"09-400","city":"Płock","stateOrProvince":"mazowieckie","country":"Poland","characteristics":[{"name":"postOffice"}]}}}]}},"billPayer":{"id":"1003615525","partyValue":{"id":"1003615525","name":"Antoni
+    Kaźmierczak","role":"billPayer","type":"organization","entityType":"Party","organization":{"tradingName":"Antoni
+    Kaźmierczak","organizationIdentifications":[{"identificationId":"6539723969","type":"vatNumber"},{"identificationId":"561200339","name":"REGON","type":"subjectRegistrationId"}]},"contacts":[{"id":"1-66Y53KI","group":"business","type":"address","role":{"name":"billing"},"medium":{"address":{"id":"1-66Y53KI","streetNr":"6/46","streetName":"1
+    Maja","postcode":"09-400","city":"Płock","stateOrProvince":"mazowieckie","country":"Poland","characteristics":[{"name":"postOffice"}]}}}]}},"billPayee":{"bankAccountValue":{"accountNumber":"PL20103019577777830000553125","accountNumberType":"IBAN","bic":"CITIPLPX","bank":"Bank
+    Handlowy w Warszawie
+    S.A."},"partyValue":{"organization":{"isHeadOffice":true,"tradingName":"T-Mobile
+    Polska","nameType":"S.A","organizationIdentifications":[{"identificationId":"526-104-05-67","name":"NIP","type":"vatNumber"},{"identificationId":"011417295","name":"REGON","type":"subjectRegistrationId"}]},"contacts":[{"group":"business","type":"address","medium":{"address":{"streetNr":"12","streetName":"Marynarska","postcode":"02-674","city":"Warszawa","stateOrProvince":"mazowieckie","country":"POL"}}}]}},"relatedParty":[{"id":"1003615525","name":"Antoni
+    Kaźmierczak","role":"billPayer"},{"id":"1003615525_3000055312_billReceiver","name":"Antoni
+    Kaźmierczak","role":"billReceiver"}],"financialAccount":{"id":"83000055312","href":"/financialAccounts/v1/83000055312","name":"Antoni
+    Kaźmierczak"},"relatedEntities":[{"entityType":"eventGroup","relationType":"contains","relatedEntityId":"CBM-P1M-1-1-A_20220801_1"},{"entityType":"customer","relationType":"reference","relatedEntityId":"1003615525"},{"entityType":"customerAccount","relationType":"reference","relatedEntityId":"1003615525"}],"characteristics":[{"name":"billingProcessId","value":"CBM3466"},{"name":"detailedACBRcount","value":"4"},{"name":"isVATPayer","value":"false"},{"name":"channel","value":"CBM"},{"name":"marketSegment","value":"TA"}]}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f6102b84294d485ea58e372add6ed00b
+authentication: {}
+metaSortKey: -1659605317666
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

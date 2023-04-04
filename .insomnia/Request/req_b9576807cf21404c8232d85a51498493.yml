@@ -1,0 +1,185 @@
+_id: req_b9576807cf21404c8232d85a51498493
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1679417450961
+created: 1678054952781
+url: http://localhost:8088/v1/external/customerBills
+name: /customerBill TOP_UP
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "type": "topUp",
+        "billType": "oneTimeInvoice",
+        "runType": "offCycle",
+        "taxableSupplyDate": "2022-09-01",
+        "category": "normal",
+        "billPeriod": { 
+            "startDateTime": "2022-08-31T22:00:00.000+0000",
+            "endDateTime": "2022-09-30T22:59:59.999+0000"
+        },
+        "taxIncludedAmount": {
+            "units": "PLN",
+            "amount": 29.99
+        },
+        "remainingAmount": {
+            "units": "PLN",
+            "amount": 0
+        },
+        "relatedParty": [
+            {
+                "entityReferredType": "Profile",
+                "id": "6115996",
+                "name": "KRZYSZTOF XYZ",
+                "role": "profile"
+            }
+        ],
+        "relatedEntities": [
+            {
+                "entityType": "serviceID",        
+                "relationType": "reference",
+                "relatedEntityId": "48694227132"   
+            },
+            {
+                "entityType": "product",
+                "relationType": "reference",
+                "relatedEntityId": "P-PRD-6812545" 
+            }
+        ],
+    	"correlatorId":"xyz1234",
+        "paymentMethod": {
+            "id": "35346456-8665-43bc-4574-e4b7c2e91139",
+            "paymentMethodValue": {
+                "type": "bankAccountTransfer"
+            }
+        }, 
+        "appliedPayment": [
+            {
+                "appliedAmount": {
+                    "units": "PLN",
+                    "amount": 29.99
+                },
+                "payment": {
+                    "id": "1d62e548-8665-43bc-91f3-e4b7c2e91138",
+                    "paymentDate": "2022-09-01T06:34:13.000+0000",
+                    "amount": {
+                        "units": "PLN",
+                        "amount": 29.99
+                    }
+                }
+            }
+        ],
+    	"billPayer": {
+    		"partyValue": {
+    			"id": "1",
+    			"role": "billPayer",
+    			"type": "individual",
+    			"individual": {
+    				"givenName": "RENATA",
+    				"familyName": "XYZ",
+    				"title": "PANI",
+    				"individualIdentifications": [
+    					{
+    						"identificationId": "34748569679",
+    						"name": "PESEL",
+    						"type": "socialSecurityNumber"
+    					},
+    					{
+    						"identificationId": "JHF568567",
+    						"name": "ID",
+    						"type": "nationalIdentityCard"
+    					}
+    				]
+    			},
+    			"contacts": [
+    				{
+    					"type": "address",
+    					"role": {
+    						"name": "billing"
+    					},
+    					"medium": {
+    						"address": {
+    							"streetNr": "4A",
+    							"streetName": "XYZ",
+    							"postcode": "60-476",
+    							"city": "WAW",
+    							"country": "POL",
+    							"subAddresses": [
+    								{
+    									"subUnitNumber": "75"
+    								}
+    							]
+    						}
+    					}
+    				}
+    			]
+    		}
+    	},
+        "appliedCustomerBillingRates": [
+            {
+                "name": "Doładowanie Magenta",
+                "description": "Doładowanie Magenta",
+                "aggregateLevel": "detailed",
+                "type": "oneTimeCharge",
+                "taxIncludedAmount": {
+                    "units": "PLN",
+                    "amount": 29.99
+                },
+                "appliedTax": [
+                    {
+                        "taxRate": 23
+                    }
+                ],
+                "productRef": {
+                       "id": "P-PRD-2694879",
+                       "name": "609824946"    
+                },
+                "relatedEntities": [
+                    {
+                        "entityType": "productSpecification",
+                        "entityName": "productSpecificationName",
+                        "relationType": "reference",
+                        "relatedEntityId": "redbullSubs_40GB_spec"
+                    }
+               ]
+             }
+        ],
+         "characteristics" : [
+                {
+                    "name" : "externalId",
+                    "value" : "bd6541tt4"
+                },
+                {
+                    "name" : "channel",
+                    "value" : "SM"
+                }
+            ]
+        } 
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_91da5ee629ca4552a578794cc6ff8472
+  - name: x-request-session-id
+    value: session-asascs
+    id: pair_587b3710fc6d43b8b2dfdc72f908b6d6
+    disabled: true
+  - name: x-request-tracking-id
+    value: traking-ascsaca-1
+    id: pair_36e6d74ecb5f4df981172e0732209550
+    disabled: true
+  - name: x-request-id
+    value: request-fdbdcsd
+    id: pair_8bd2271a6bd94390a9023645c4999309
+    disabled: true
+authentication: {}
+metaSortKey: -1651076500306.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: true
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

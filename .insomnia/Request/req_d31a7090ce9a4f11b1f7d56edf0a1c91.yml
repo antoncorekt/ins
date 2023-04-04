@@ -1,0 +1,21 @@
+_id: req_d31a7090ce9a4f11b1f7d56edf0a1c91
+type: Request
+parentId: fld_ff13db29081c4fc5a50317cc47803aba
+modified: 1651076500207
+created: 1651076500207
+url: http://localhost:8080/product/:id/synchronize
+name: synchronoze product
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651076500207
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

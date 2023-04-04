@@ -1,0 +1,25 @@
+_id: req_6051cdbbf45a437eb5a06c19afbff20b
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1651076500285
+created: 1651076500285
+url: "{{gateway}}/{{customerBillsUrl}}/:CUSTOMER_BILL_ID/document/:DOC_ID/generate"
+name: /customerBills/{ID}/document/{DOC_ID}/generate
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: '{"characteristics":[{"name":"reason","value":"hardwareDelivered"}]}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500285
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

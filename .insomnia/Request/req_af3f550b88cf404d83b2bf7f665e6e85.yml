@@ -1,0 +1,35 @@
+_id: req_af3f550b88cf404d83b2bf7f665e6e85
+type: Request
+parentId: fld_5c79a72211bf4601ad9feef7d3b744a3
+modified: 1651076500214
+created: 1651076500214
+url: "{{evagrSIT}}/config/invoiceLines/cyclic_telco_adj"
+name: GET ALL/invocieLines
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"invoiceLineId\": \"blabla\",\r
+
+    \    \"invoiceLineName\": \"Other\"\r
+
+    \r
+
+    \r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500214
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

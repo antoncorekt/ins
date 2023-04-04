@@ -1,0 +1,24 @@
+_id: req_bb4a66ed4bfa4f4f8ec4f19e4f5b0bea
+type: Request
+parentId: fld_5c79a72211bf4601ad9feef7d3b744a3
+modified: 1662036890473
+created: 1651076500210
+url: http://ngcbm-dev2.kopernik.t-mobile.pl/bill/config/cache/BillingAccountCache/invalidate
+name: invalidateCache
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1ff366129451468b8e7e7f3e8c50af52
+authentication: {}
+metaSortKey: -1651076500210
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

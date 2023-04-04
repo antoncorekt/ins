@@ -1,0 +1,21 @@
+_id: req_8af68ab313f04a77bb27f398e23b31b5
+type: Request
+parentId: fld_c56dd898363541d384d53c79912ba5c1
+modified: 1679580704450
+created: 1672873938843
+url: "{{ _.billWOrker }}/config/cache/CbDetailsContextService"
+name: GET /cache/name
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1672633443945.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

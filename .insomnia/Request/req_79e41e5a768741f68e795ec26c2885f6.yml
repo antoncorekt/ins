@@ -1,0 +1,25 @@
+_id: req_79e41e5a768741f68e795ec26c2885f6
+type: Request
+parentId: fld_2cf07f258da84ba6a96bddf893876ab4
+modified: 1678792434959
+created: 1669712157842
+url: http://cbm-prep.kopernik.t-mobile.pl/cbm/workflow/ocsEvents/1403202310234301050584/startWorkflowProcess
+name: manual start ocs event
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_6aa5f211fcaa4eb6bd5bda1127ccefc6
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1669712157843
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

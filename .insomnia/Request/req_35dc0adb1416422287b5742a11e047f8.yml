@@ -1,0 +1,263 @@
+_id: req_35dc0adb1416422287b5742a11e047f8
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1651076500298
+created: 1651076500298
+url: "{{gateway}}/{{customerBillsUrl}}"
+name: /customerBill HARDWARE
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"runType\": \"offCycle\",\r
+
+    \    \"relatedEntities\": [\r
+
+    \        {\r
+
+    \            \"entityType\": \"product\",\r
+
+    \            \"relationType\": \"reference\",\r
+
+    \            \"relatedEntityId\": \"P-23432\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"taxExcludedAmount\": {\r
+
+    \        \"units\": \"PLN\",\r
+
+    \        \"amount\": 3000.0\r
+
+    \    },\r
+
+    \    \"taxIncludedAmount\": {\r
+
+    \        \"units\": \"PLN\",\r
+
+    \        \"amount\": 3690.0\r
+
+    \    },\r
+
+    \    \"billingAccount\": {\r
+
+    \        \"id\": \"87547455\"\r
+
+    \    },\r
+
+    \    \"paymentMethod\": {\r
+
+    \        \"id\": \"{Payment_Method_ID}\",\r
+
+    \        \"type\": \"tokenizedCard\"\r
+
+    \    },\r
+
+    \    \"relatedParty\": [\r
+
+    \        {\r
+
+    \            \"entityReferredType\": \"Party\",\r
+
+    \            \"id\": \"b832d7cd-1acf-467c-9a18-61b6356929fb\",\r
+
+    \            \"name\": \"John Smith\",\r
+
+    \            \"role\": \"profile\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"category\": \"hardwarePayment\",\r
+
+    \    \"channel\": {\r
+
+    \        \"id\": \"OFS\"\r
+
+    \    },\r
+
+    \    \"externalID\": \"ef1\",\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"id\": \"99acbb5f-9061-4395-b29b-c22eed82e91a\",\r
+
+    \            \"group\": \"personal\",\r
+
+    \            \"type\": \"email\",\r
+
+    \            \"medium\": {\r
+
+    \                \"emailAddress\": \"hardware@payment.com\"\r
+
+    \            }\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"id\": \"61f39ea7-dfe0-4f72-bed6-2fb84c2dc7ed\",\r
+
+    \            \"group\": \"personal\",\r
+
+    \            \"type\": \"mobile\",\r
+
+    \            \"medium\": {\r
+
+    \                \"number\": \"+491523456789\"\r
+
+    \            }\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"appliedCustomerBillingRates\": [\r
+
+    \        {\r
+
+    \            \"id\": \"27432-1\",\r
+
+    \            \"seqno\": \"1\",\r
+
+    \            \"name\": \"Huawei Lite\",\r
+
+    \            \"description\": \"Tel Huawei Lite\",\r
+
+    \            \"type\": \"oneTimeCharge\",\r
+
+    \            \"taxExcludedAmount\": {\r
+
+    \                \"units\": \"PLN\",\r
+
+    \                \"amount\": 800\r
+
+    \            },\r
+
+    \            \"taxIncludedAmount\": {\r
+
+    \                \"units\": \"PLN\",\r
+
+    \                \"amount\": 984.0\r
+
+    \            },\r
+
+    \            \"characteristic\": [\r
+
+    \                {\r
+
+    \                    \"name\": \"materialCode\",\r
+
+    \                    \"value\": \"QA-B-00001\"\r
+
+    \                }\r
+
+    \            ],\r
+
+    \            \"productSpecification\": {\r
+
+    \                \"id\": \"Huawei Lite Id\"\r
+
+    \            }\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"id\": \"27432-2\",\r
+
+    \            \"seqno\": \"2\",\r
+
+    \            \"name\": \"Samsung S10\",\r
+
+    \            \"description\": \"Tel Samsung S10\",\r
+
+    \            \"type\": \"oneTimeCharge\",\r
+
+    \            \"taxExcludedAmount\": {\r
+
+    \                \"units\": \"PLN\",\r
+
+    \                \"amount\": 2200\r
+
+    \            },\r
+
+    \            \"taxIncludedAmount\": {\r
+
+    \                \"units\": \"PLN\",\r
+
+    \                \"amount\": 2706\r
+
+    \            },\r
+
+    \            \"characteristic\": [\r
+
+    \                {\r
+
+    \                    \"name\": \"materialCode\",\r
+
+    \                    \"value\": \"QA-B-00002\"\r
+
+    \                }\r
+
+    \            ],\r
+
+    \            \"productSpecification\": {\r
+
+    \                \"id\": \"Samsung S10 id\"\r
+
+    \            }\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"characteristics\": [\r
+
+    \        {\r
+
+    \            \"name\": \"orderURL\",\r
+
+    \            \"value\": \"{orderURL}\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"name\": \"orderID\",\r
+
+    \            \"value\": \"{orderID}\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"name\": \"balanceId\",\r
+
+    \            \"value\": \"27432\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500298
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_950164da18cd4031b28895ca3ccda920
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1655896428946
+created: 1655895885279
+url: http://cbm-sit.kopernik.t-mobile.pl/cbm/sit/api/v1/external/customerBills/70589/delivery
+name: /customerBill/{ID}/delivery
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_94ea6e45406c4358a75bad17e57d7524
+    name: x-request-callbackurl
+    value: http://toofstest.test.pl
+    description: ""
+  - id: pair_45c0da4c116e492db8750af181db62b5
+    name: content-type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1655895885279
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

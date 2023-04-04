@@ -1,0 +1,21 @@
+_id: req_b2b5a27f619c458f908e75badf353324
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1679321864704
+created: 1651076500278
+url: "{{ _.gatewayH01 }}/v1/external/customerBills?query=eq(id,597362)&source=CBM"
+name: getCustomerBills
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651076500278
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

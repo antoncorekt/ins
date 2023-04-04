@@ -1,0 +1,31 @@
+_id: req_cca6c7da8a634c9093b61187a7c76c9c
+type: Request
+parentId: fld_2cf07f258da84ba6a96bddf893876ab4
+modified: 1680619268574
+created: 1651076500252
+url: http://cbm-prod.kopernik.t-mobile.pl/cbm/prod/api/operations/customerBills/594509
+name: manualPatchCustomerBill
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "state": "settled"
+    }
+parameters:
+  - name: CUSTOMER_BILL_ID
+    value: "1"
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6160475fe8e8436fb5270f89731f769f
+authentication: {}
+metaSortKey: -1651076500252
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

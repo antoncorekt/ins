@@ -1,0 +1,41 @@
+_id: req_8a318128d7514463b0fcb56768dbd74a
+type: Request
+parentId: fld_19afc9e27145400d87c3ed3dc1493a2e
+modified: 1680612571296
+created: 1666910424988
+url: "{{ _.billWOrker }}/billingProcess"
+name: /billingProcess BILLING
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+       "billCycleId" : "P1M-1-1_20230501",
+       "startedBy" : "akozlovskyi",
+    	 "billingCategory": "BILLING",
+    	  "billingProcessMode": "TEST",
+    	  "biltlingAccounts" : [
+                {
+                    "id" : "5374251140"
+                },
+    			{
+    				"id": "4044632174"
+    			}
+        ], 
+    	 "features": ["ITEMIZED_BILL"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1a8ff204c8d74601809423a404f0ae55
+authentication: {}
+metaSortKey: -1658280547379.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

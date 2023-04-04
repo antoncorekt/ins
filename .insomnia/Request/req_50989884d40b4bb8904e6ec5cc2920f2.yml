@@ -1,0 +1,21 @@
+_id: req_50989884d40b4bb8904e6ec5cc2920f2
+type: Request
+parentId: fld_fd74cfd5715f416f9867a3090701331a
+modified: 1662414863084
+created: 1659635496476
+url: http://localhost:8651/customerBills/CB4273/itemizedBill/generate?billingProcessId=CBM46SIT&billingProcessMode=PRODUCTION&mediaType=Email&lastUsageEventInsertTime=2022-09-05T23:19:37.702+02:00
+name: Post generate bill detailed
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1659635496476
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

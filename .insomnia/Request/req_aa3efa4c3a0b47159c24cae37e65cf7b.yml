@@ -1,0 +1,25 @@
+_id: req_aa3efa4c3a0b47159c24cae37e65cf7b
+type: Request
+parentId: fld_19afc9e27145400d87c3ed3dc1493a2e
+modified: 1678705740806
+created: 1658440184647
+url: "{{ _.billWOrker }}/billingProcess/CBM667T/billingAccountData?rql=ne(id,id)"
+name: /billingProcess/{id}/billingAccountData
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_af8d63c605ae46198d35e1acfbc95d0b
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1658440184647
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

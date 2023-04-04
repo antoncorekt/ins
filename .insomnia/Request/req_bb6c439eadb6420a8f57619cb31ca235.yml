@@ -1,0 +1,22 @@
+_id: req_bb6c439eadb6420a8f57619cb31ca235
+type: Request
+parentId: fld_133abf85cf9440099ccae382822a18fb
+modified: 1675118045591
+created: 1671658688255
+url: "{{ _.billWOrker
+  }}/appliedCustomerBillRatesDetailed?rql=eq(customerBillId,CB13598T)"
+name: GET/acbrDetailed
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671658561847.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

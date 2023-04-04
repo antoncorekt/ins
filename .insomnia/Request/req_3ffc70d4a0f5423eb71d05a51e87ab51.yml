@@ -1,0 +1,108 @@
+_id: req_3ffc70d4a0f5423eb71d05a51e87ab51
+type: Request
+parentId: fld_e180d4ff88754510a122fbf203655f85
+modified: 1674145735072
+created: 1674134547956
+url: "{{ _.aggregator }}/usages"
+name: /POST usage
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-2
+     {
+        "id": "testUsage4",
+        "date": "2023-01-01T00:00:00+01:00",
+        "type": "recurringFee",
+        "productRef": {
+          "id": "1-E19A59T"
+        },
+        "usageCharacteristics": [
+          {
+            "name": "endDate",
+            "value": "2023-01-31T23:59:59.999+01:00"
+          },
+          {
+            "name": "sessionId",
+            "value": "123-123-123"
+          },
+          {
+            "name": "productL0Ref",
+            "value": "1-E19A59T"
+          },
+          {
+            "name": "billingAccountId",
+            "value": "4954298289"
+          },
+          {
+            "name": "customerId",
+            "value": "5687300821"
+          },
+          {
+            "name": "detailLabel",
+            "value": "abo_telco_current_1"
+          },
+          {
+            "name": "summaryLabel",
+            "value": "abo_telco_current_1"
+          },
+          {
+            "name": "taxCode",
+            "value": "telco23"
+          },
+          {
+            "name": "productSpecificationId",
+            "value": "testID"
+          },
+          {
+            "name": "priceId",
+            "value": "6-3G88DQH"
+          },
+          {
+            "name": "quantity",
+            "value": "1"
+          },
+          {
+            "name": "priceApplicationType",
+            "value": "past"
+          },
+          {
+            "name": "priceProrating",
+            "value": "proportional"
+          },
+          {
+            "name": "pRiceSubType",
+            "value": "Subscription fee"
+          },
+          {
+            "name": "productCategorizationType",
+            "value": "telco"
+          },
+          {
+            "name": "eventGroupId",
+            "value": "P1M-1-1_20230201_1"
+          }
+        ],
+        "ratedProductUsages": [
+          {
+            "ratingDate": "2023-01-31T23:59:59.999+01:00",
+            "billingCycleRef": {
+              "id": "P1M-1-1_20230201"
+            },
+            "taxExcludedRatingAmount": 50.12
+          }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674134547956
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

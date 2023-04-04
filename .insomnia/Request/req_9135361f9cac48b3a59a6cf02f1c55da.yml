@@ -1,0 +1,29 @@
+_id: req_9135361f9cac48b3a59a6cf02f1c55da
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1651076500291
+created: 1651076500291
+url: "{{gateway}}/{{customerBillsUrl}}/:CUSTOMER_BILL_ID/paymentOrder/:PAYMENT_ID"
+name: Cancel /customerBills/{ID}/paymentOrder/{PAYMENT_ID}
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "state": "Canceled",
+        "stateReason": "calceled"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500291
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

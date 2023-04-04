@@ -1,0 +1,25 @@
+_id: req_00e50fd2b9504bfeb1e57dd78682ddd3
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1679050184242
+created: 1651076500283
+url: "{{gateway}}{{customerBillsUrl}}/514941"
+name: /customerBills
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-Request-Id
+    value: sdcsdcsd
+authentication: {}
+metaSortKey: -1651076500283
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_3a181a21233f4f5e8e79c7da57fa3492
+type: Request
+parentId: fld_ddcea7bbb8ae449584ef32bdb944b7dc
+modified: 1651076500274
+created: 1651076500274
+url: "{{workflow}}/customerBills/:CUSTOMER_BILL_ID/paymentOrder/startWorkflowPr\
+  ocess"
+name: startWorkflow POST_PAYMENT
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"state\": \"Ordered\",\r
+
+    \    \"paymentRef\": {\r
+
+    \      \"id\": \"CPM_348_PAYMENT_ID\"\r
+
+    \    }\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500274
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

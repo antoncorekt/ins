@@ -1,0 +1,165 @@
+_id: req_6892cdb0f5b848598fd51d914406306b
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1651076500300
+created: 1651076500300
+url: "{{gateway}}/{{customerBillsUrl}}"
+name: /customerBill PIR
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"runType\": \"offCycle\",\r
+
+    \    \"relatedEntities\": [\r
+
+    \        {\r
+
+    \            \"entityType\": \"serviceID\",\r
+
+    \            \"relationType\": \"reference\",\r
+
+    \            \"relatedEntityId\": \"48602206519\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"entityType\": \"product\",\r
+
+    \            \"relationType\": \"reference\",\r
+
+    \            \"relatedEntityId\": \"PID-606\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"entityType\": \"mainBillingProductId\",\r
+
+    \            \"relationType\": \"reference\",\r
+
+    \            \"relatedEntityId\": \"c96234954\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"state\": \"new\",\r
+
+    \    \"billPeriod\": {\r
+
+    \        \"startDateTime\": \"2020-07-14T12:50:27Z\",\r
+
+    \        \"endDateTime\": \"2020-08-13T12:50:27Z\"\r
+
+    \    },\r
+
+    \    \"amountDue\": {\r
+
+    \        \"units\": \"PLN\",\r
+
+    \        \"amount\": 4.76\r
+
+    \    },\r
+
+    \    \"taxIncludedAmount\": {\r
+
+    \        \"units\": \"PLN\",\r
+
+    \        \"amount\": 4.76\r
+
+    \    },\r
+
+    \    \"billingAccount\": {\r
+
+    \        \"id\": \"87547525\"\r
+
+    \    },\r
+
+    \    \"relatedParty\": [\r
+
+    \        {\r
+
+    \            \"entityReferredType\": \"Party\",\r
+
+    \            \"id\": \"1293496\",\r
+
+    \            \"role\": \"profile\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"category\": \"PIR\",\r
+
+    \    \"channel\": {\r
+
+    \        \"id\": \"OCS\",\r
+
+    \        \"name\": \"OCS\"\r
+
+    \    },\r
+
+    \    \"externalID\": \"606\",\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"group\": \"personal\",\r
+
+    \            \"type\": \"email\",\r
+
+    \            \"medium\": {\r
+
+    \                \"emailAddress\": \"taurus@taurus.pl\"\r
+
+    \            }\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"group\": \"personal\",\r
+
+    \            \"type\": \"mobile\",\r
+
+    \            \"medium\": {\r
+
+    \                \"number\": \"48602206519\"\r
+
+    \            }\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"characteristics\": [\r
+
+    \        {\r
+
+    \            \"name\": \"balanceId\",\r
+
+    \            \"value\": \"6258\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

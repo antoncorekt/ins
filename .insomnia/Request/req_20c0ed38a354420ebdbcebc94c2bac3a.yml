@@ -1,0 +1,78 @@
+_id: req_20c0ed38a354420ebdbcebc94c2bac3a
+type: Request
+parentId: fld_f07c3860c50f49cfbc001ba8218ab484
+modified: 1680216463485
+created: 1680083240613
+url: "{{ _.ngcbmGateway }}/v1/customerBills"
+name: / customerBill RBM_IMPORT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "test2",
+    	"type": "standard",
+    	"name": "Faktura korygująca",
+    	"billNo": "990136250822",
+    	"billType": "correctiveInvoice",
+    	"runType": "offCycle",
+    	"state": "settled",
+    	"billDate": "2022-08-30",
+    	"amountDue": {
+    		"units": "PLN",
+    		"amount": 0
+    	},
+    	"paymentDueDate": "2022-09-13",
+    	"remainingAmount": {
+    		"units": "PLN",
+    		"amount": 0
+    	},
+    	"taxExcludedAmount": {
+    		"units": "PLN",
+    		"amount": -0.93
+    	},
+    	"taxIncludedAmount": {
+    		"units": "PLN",
+    		"amsount": -1
+    	},
+    	"taxAmount": {
+    		"units": "PLN",
+    		"amount": -0.07
+    	},
+    	"billingAccount": {
+    		"isd": "107701689",
+    		"name": "Aleksander Bogdański",
+    		"characteristics": [
+    			{
+    				"name": "billingSystem",
+    				"value": "RBM"
+    			}
+    		]
+    	},
+    	"relatedEntities": [
+    		{
+    			"entityType": "customerBill",
+    			"entityName": "491184450822",
+    			"relationType": "correction",
+    			"relatedEntityId": "491184450822"
+    		}
+    	],
+    	"reason": {
+    		"reasonCode": "resignation",
+    		"reasonDesc": "Zwrot towaru"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1676634432807.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

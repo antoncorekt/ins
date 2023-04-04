@@ -1,0 +1,21 @@
+_id: req_9163d9c65c3d4ff7b50dd2d19959eeb9
+type: Request
+parentId: fld_c56dd898363541d384d53c79912ba5c1
+modified: 1673886228919
+created: 1673886223718
+url: "{{ _.billWOrker }}/config/cache/invalidateAll"
+name: POST /cache/invalidateAll
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1672453751883.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

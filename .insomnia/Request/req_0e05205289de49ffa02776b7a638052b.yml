@@ -1,0 +1,37 @@
+_id: req_0e05205289de49ffa02776b7a638052b
+type: Request
+parentId: fld_ff13db29081c4fc5a50317cc47803aba
+modified: 1679654846034
+created: 1658931415934
+url: http://bam-sit.kopernik.t-mobile.pl/bam/sit/billingAccountGateway/v3/billingAccounts/5374251140
+name: /billAcc PATCH
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"characteristics": [
+    		{
+    			"name": "billingSystem",
+    			"value": "CBM"
+    		},
+    		{
+    			"name": "migrationPhase",
+    			"value": "CBM"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1658931415934
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

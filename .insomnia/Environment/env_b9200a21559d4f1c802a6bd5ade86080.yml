@@ -1,0 +1,16 @@
+_id: env_b9200a21559d4f1c802a6bd5ade86080
+type: Environment
+parentId: env_01a801cf4ce2524c033e6342a63a9067869cc342
+modified: 1674134506312
+created: 1672304054983
+name: dev
+data:
+  billWOrker: http://ngcbm-dev.kopernik.t-mobile.pl/bill
+  aggregator: http://ngcbm-dev.kopernik.t-mobile.pl/aggregator
+dataPropertyOrder:
+  "&":
+    - billWOrker
+    - aggregator
+color: "#1e59b8"
+isPrivate: false
+metaSortKey: 1672304054983

@@ -1,0 +1,24 @@
+_id: env_01a801cf4ce2524c033e6342a63a9067869cc342
+type: Environment
+parentId: wrk_f388b2eb275846f0ae8d7c675fcf3e41
+modified: 1665138643470
+created: 1651076515077
+name: Base Environment
+data:
+  evagr: http://localhost:8652
+  cbGateway: http://localhost:8652
+  deg: http://localhost:8652
+  rbmAdapter: http://localhost:8652
+  sequensGenerator: http://localhost:8652
+  gatewayH01: http://localhost:8652
+dataPropertyOrder:
+  "&":
+    - evagr
+    - cbGateway
+    - deg
+    - rbmAdapter
+    - sequensGenerator
+    - gatewayH01
+color: null
+isPrivate: false
+metaSortKey: 1651076515077

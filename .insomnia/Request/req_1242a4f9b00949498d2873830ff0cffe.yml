@@ -1,0 +1,27 @@
+_id: req_1242a4f9b00949498d2873830ff0cffe
+type: Request
+parentId: fld_f07c3860c50f49cfbc001ba8218ab484
+modified: 1679050824195
+created: 1677586710619
+url: "{{ _.ngcbmGateway
+  }}/accountTransactionSync/billingAccountId/5062551269/export"
+name: /accountBalanseExport
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_6e6bdc33f22b4fe290fa2c4f44cef9ae
+    name: mode
+    value: NEW_TRANSACTIONS
+    description: ""
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1675240729301.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

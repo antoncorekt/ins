@@ -1,0 +1,31 @@
+_id: req_b487b069ec5d4037be9fe2aab53d24ac
+type: Request
+parentId: fld_19afc9e27145400d87c3ed3dc1493a2e
+modified: 1671180588290
+created: 1658440157077
+url: http://localhost:8080/billingProcess
+name: /billingProcess BILL_CHECK
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "billCycleId": "CBM-P1M-1-1-A_20221101",
+    	  "billingCategory": "BILL_CHECK",
+    	  "startedBy": "akozlovskyi"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1a8ff204c8d74601809423a404f0ae55
+authentication: {}
+metaSortKey: -1658440157078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

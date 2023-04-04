@@ -1,0 +1,37 @@
+_id: req_3fbb3f398bda44f5b56d305d27540b2e
+type: Request
+parentId: fld_5c79a72211bf4601ad9feef7d3b744a3
+modified: 1651076500223
+created: 1651076500223
+url: "{{evagrSIT}}/config/invoiceSections"
+name: /invocieSections
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"sortOrder\":99,\r
+
+    \    \"type\": \"$*\",\r
+
+    \    \"invoiceLineId\": \"usage\",\r
+
+    \    \"usageSectionId\": \"other\",\r
+
+    \    \"serviceSummaryColumnId\": \"oneoffCharges\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500223
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

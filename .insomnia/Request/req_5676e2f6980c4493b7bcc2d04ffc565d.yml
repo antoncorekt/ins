@@ -1,0 +1,25 @@
+_id: req_5676e2f6980c4493b7bcc2d04ffc565d
+type: Request
+parentId: fld_ab715bde2e9e4e98abc8a1ccc59bef93
+modified: 1656628132972
+created: 1651076500236
+url: "{{ _.evagrPROD }}/billingProcess/CBM3430"
+name: /billingProcess/{id}
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: ""
+    value: "ID: CBM3"
+    id: pair_1df3703bbc9846b2958d5b1e8c089be0
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1651076500236
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,47 @@
+_id: req_9223be2e24014562873a723c103aa3a5
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1651076500287
+created: 1651076500287
+url: "{{gateway}}/{{customerBillsUrl}}/:CUSTOMER_BILL_ID/cancel"
+name: /customerBill/{ID}/cancel
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"channel\": {\r
+
+    \        \"name\": \"OFS\"\r
+
+    \    },\r
+
+    \    \"relatedEntities\" : [ {\r
+
+    \            \"entityType\" : \"taskID\",\r
+
+    \            \"relationType\" : \"reference\",\r
+
+    \            \"relatedEntityId\" : \"OFS_ORDER_ID\"\r
+
+    \    }\r
+
+    \    ],\r
+
+    \    \"cancelReason\" : \"disableRecurring\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500287
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_bfa9deb148dd4bda975e133ab8774cea
+type: Request
+parentId: fld_5c79a72211bf4601ad9feef7d3b744a3
+modified: 1651076500215
+created: 1651076500215
+url: "{{evagrSIT}}/config/invoiceLines"
+name: /invocieLines
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: " {\r
+
+    \        \"invoiceLineId\": \"abo_telco_adj\",\r
+
+    \        \"invoiceLineName\": \"Abonament - wyrównania\",\r
+
+    \        \"periodFormatter\": \"period\",\r
+
+    \        \"degSeqno\": 2,\r
+
+    \        \"degFaSectionUid\": 2\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500215
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

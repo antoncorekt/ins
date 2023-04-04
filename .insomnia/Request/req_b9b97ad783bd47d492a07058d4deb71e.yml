@@ -1,0 +1,22 @@
+_id: req_b9b97ad783bd47d492a07058d4deb71e
+type: Request
+parentId: fld_ddcea7bbb8ae449584ef32bdb944b7dc
+modified: 1651076500275
+created: 1651076500275
+url: "{{workflow}}/customerBills/:CUSTOMER_BILL_ID/startWorkflowProcess?externa\
+  lId=externalId"
+name: startWorkflow CUSTOMER_BILL
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651076500275
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

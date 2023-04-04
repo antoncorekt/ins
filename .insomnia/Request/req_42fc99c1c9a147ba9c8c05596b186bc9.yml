@@ -1,0 +1,45 @@
+_id: req_42fc99c1c9a147ba9c8c05596b186bc9
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1651076500286
+created: 1651076500286
+url: "{{gateway}}/{{customerBillsUrl}}/:CUSTOMER_BILL_ID/document"
+name: /customerBills/{ID}/document
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"id\": \"10027\",\r
+
+    \    \"documentType\": \"invoice\",\r
+
+    \    \"documentSubType\": \"invoice\",\r
+
+    \    \"documentCharacteristics\": [\r
+
+    \        {\r
+
+    \            \"name\": \"SALE_DATE\",\r
+
+    \            \"value\": \"2022-02-02T00:00:00\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500286
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_462462d70b7e4720a00aaeadcf82ed59
+type: Request
+parentId: fld_c6bf2cc3c43f4731b74459ca3be1205b
+modified: 1651076500260
+created: 1651076500260
+url: "{{worker}}/cancelOrders/:CUSTOMER_BILL_ID"
+name: getCancelOrders
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500260
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

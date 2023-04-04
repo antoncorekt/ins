@@ -1,0 +1,24 @@
+_id: req_f499624b16b1455abebcc9a7bc040bf1
+type: Request
+parentId: fld_2cf07f258da84ba6a96bddf893876ab4
+modified: 1680619261158
+created: 1651076500255
+url: http://cbm-prod.kopernik.t-mobile.pl/cbm/prod/api/operations/customerBills/594509/createInvoice
+name: manualStoreInvoice
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6e11a95fa44b4b9bbcd6835910b7ba20
+authentication: {}
+metaSortKey: -1651076500255
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_6f421602a0674d3ea17375cdea2322f2
+type: Request
+parentId: fld_69ff64df21f740ee98ea126e02c07056
+modified: 1680619276978
+created: 1658933597232
+url: http://cbm-prod.kopernik.t-mobile.pl/eventbus/api/customerBills/594509/event
+name: POST /event
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1658933597232
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

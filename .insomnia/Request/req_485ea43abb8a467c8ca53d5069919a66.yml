@@ -1,0 +1,26 @@
+_id: req_485ea43abb8a467c8ca53d5069919a66
+type: Request
+parentId: fld_19afc9e27145400d87c3ed3dc1493a2e
+modified: 1674040977321
+created: 1674038870876
+url: "{{ _.billWOrker }}/billingCycles/04/regenerateBillCycle"
+name: /billCycles/regenerate
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_d58b11e5279f4c00948d56ce50790ebc
+    name: prevCycleCount
+    value: "12"
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1657961327931.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

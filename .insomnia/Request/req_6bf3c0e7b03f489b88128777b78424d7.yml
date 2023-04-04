@@ -1,0 +1,35 @@
+_id: req_6bf3c0e7b03f489b88128777b78424d7
+type: Request
+parentId: fld_19afc9e27145400d87c3ed3dc1493a2e
+modified: 1673632304197
+created: 1667951657445
+url: "{{ _.billWOrker }}/billingProcess"
+name: /billingProcess CORRECTIVE
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	 "billingCategory": "CORRECTIVE", 
+       "resources" : [
+                {
+                    "id" : "T86"
+                }
+        ], 
+        "startedBy" : "akozlovskyi"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1a8ff204c8d74601809423a404f0ae55
+authentication: {}
+metaSortKey: -1658200742529.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

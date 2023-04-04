@@ -1,0 +1,169 @@
+_id: req_3feb4218ab134599bb20fdae96a22182
+type: Request
+parentId: fld_c645a74f7591428db85493bcc2c12efa
+modified: 1651076500265
+created: 1651076500265
+url: http://localhost:8888/payments
+name: CPM/ payment
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"correlatorId\": \"68266\",\r
+
+    \    \"totalAmount\": {\r
+
+    \        \"amount\": \"1449.99\",\r
+
+    \        \"units\": \"PLN\"\r
+
+    \    },\r
+
+    \    \"channel\": {\r
+
+    \        \"id\": \"CBM\"\r
+
+    \    },\r
+
+    \    \"account\": {\r
+
+    \        \"id\": \"102719961\"\r
+
+    \    },\r
+
+    \    \"characteristics\": [\r
+
+    \        {\r
+
+    \            \"name\": \"orderURL\",\r
+
+    \            \"value\":
+    \"https://eshop-oneshop-nginx-preprod.eshop.yo-digital.com/order-confirmati\
+    on?id%3D52a1a51b-d1f8-4a0b-a35e-e4fb44c0cdf8\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"name\": \"orderID\",\r
+
+    \            \"value\": \"P-ORD-1004911\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"name\": \"balanceId\",\r
+
+    \            \"value\": \"3190\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"name\": \"transactionStrategy\",\r
+
+    \            \"value\": \"hardwarePayment\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"name\": \"priority\",\r
+
+    \            \"value\": \"20\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"name\": \"productId\",\r
+
+    \            \"value\": \"P-PRD-21311\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"name\": \"externalID\",\r
+
+    \            \"value\": \"P-ORD-1004914\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"paymentItem\": [\r
+
+    \        {\r
+
+    \            \"totalAmount\": {\r
+
+    \                \"amount\": \"1449.99\",\r
+
+    \                \"units\": \"PLN\"\r
+
+    \            },\r
+
+    \            \"item\": {\r
+
+    \                \"id\": \"2c9682ff749a99040174d4adda42253d\",\r
+
+    \                \"type\": \"productOffering\",\r
+
+    \                \"name\": \"Cena Podstawowa\"\r
+
+    \            }\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"paymentMethod\": [\r
+
+    \        {\r
+
+    \            \"id\": \"c39f4ec7-1c39-435a-8816-5ed48f6038c5\",\r
+
+    \            \"type\": \"tokenizedCard\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"transactionSummaryInfo\": {\r
+
+    \        \"email\": \"tmorrowteamsit11@gmail.com\"\r
+
+    \    },\r
+
+    \    \"payer\": {\r
+
+    \        \"id\": \"1149880\",\r
+
+    \        \"name\": \"Alojz Morowy\"\r
+
+    \    }\r
+
+    }"
+parameters: []
+headers:
+  - name: x-request-id
+    value: CPM[post_Payment]-68266
+  - name: x-tenant-id
+    value: tmpl
+  - name: channel
+    value: OneShop
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500265
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

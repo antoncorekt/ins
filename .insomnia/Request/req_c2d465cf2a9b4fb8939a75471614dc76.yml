@@ -1,0 +1,46 @@
+_id: req_c2d465cf2a9b4fb8939a75471614dc76
+type: Request
+parentId: fld_494890973bfd4cd58efaa9195727cabd
+modified: 1675593129296
+created: 1675592600954
+url: https://idm.t-mobile.pl/openid/jwks
+name: /openid/jwks
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_34d8da3ca18040e7866372363ef24acf
+    name: grant_type
+    value: authorization_code
+    description: ""
+  - id: pair_f5d2ff55f1714798b8bc43e7b33768dc
+    name: client_id
+    value: billdev
+    description: ""
+  - id: pair_1ec3f32855e24317a26e97b3795970ab
+    name: client_secret
+    value: nJA3PN2IyYi9vMSNK6zHTuPHYgYCTmVo8cGPy7D4
+    description: ""
+  - id: pair_3a1b129aec114218a8317f31e0d3efaf
+    name: scope
+    value: role
+    description: ""
+  - id: pair_d2397d54e6814aed9580d96ed2323325
+    name: code
+    value: Yfz4Uei4NoAA4Cs7rABJhj_vVc9At-_f2bko9IGRKr0
+    description: ""
+    disabled: false
+headers:
+  - id: pair_f2810faa90bf4ba9916ebe7c08ae09bf
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+authentication: {}
+metaSortKey: -1675592600954
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

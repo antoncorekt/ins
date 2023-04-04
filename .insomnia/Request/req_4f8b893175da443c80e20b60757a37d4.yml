@@ -1,0 +1,21 @@
+_id: req_4f8b893175da443c80e20b60757a37d4
+type: Request
+parentId: fld_c56dd898363541d384d53c79912ba5c1
+modified: 1673884782938
+created: 1672873971295
+url: "{{ _.billWOrker }}/config/cache/CacheableProductGetterService/invalidate"
+name: POST /cache/name/invalidate
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1672513649237.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

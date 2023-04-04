@@ -1,0 +1,36 @@
+_id: req_ac01022e0bf7497c9c3b622f6592e919
+type: Request
+parentId: fld_dc680f0ed1844bfead82fd4c4570e11c
+modified: 1679655452898
+created: 1679655348915
+url: http://dis-prod.unx.t-mobile.pl/sm/subscriptionTasks/63bf5c9dee2d284430a999d4
+name: SM /patch
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: '{"paymentOrder":{"state":"Paid","paymentRef":[{"id":"551935","name":"CBM
+    billing ID"},{"id":"8aacbcf68627290801863d93d66342ac","name":"CPM payment
+    ID"}],"paymentDate":"2023-02-11T01:03:57.261Z"}}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a9df7740b63d4b1f9e01ca921439451b
+  - id: pair_f7043786c7dc448caf571f4954f564cf
+    name: x-request-id
+    value: SM[patch_task]-551935
+    description: ""
+  - id: pair_75edbec7366d48c4b69f869131bbdae9
+    name: x-request-session-id
+    value: 993e8f61-79da-44cf-aa7b-ec794b626b24
+    description: ""
+authentication: {}
+metaSortKey: -1679655348915
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

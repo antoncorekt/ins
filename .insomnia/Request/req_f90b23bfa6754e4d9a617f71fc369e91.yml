@@ -1,0 +1,39 @@
+_id: req_f90b23bfa6754e4d9a617f71fc369e91
+type: Request
+parentId: fld_494890973bfd4cd58efaa9195727cabd
+modified: 1675539667822
+created: 1675507412546
+url: https://idmsit.t-mobile.pl/oauth/token
+name: SIT /ouath/token
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_3be588a9abcc41f9b8c185212f5bd229
+    name: grant_type
+    value: client_credentials
+    description: ""
+  - id: pair_5b2ef52d320545189497632ccfe01413
+    name: client_id
+    value: cbm
+    description: ""
+  - id: pair_c3a9efc3087b46b1a23e977e71657902
+    name: client_secret
+    value: eyJraWQiOiIzYzM3YTM5Ny02NzlkLTRmZGEtYTBmOC1hYTZhN2ViZGM5YjMiLCJ0eXBlIjoiSldUIiwiYWxnIjoiUFM1MTIifQ.eyJzdWIiOiJjYm0iLCJhdWQiOiJ0LW1vYmlsZS5wbCIsImlzcyI6ImNibSIsImlhdCI6MTY3NTUwNzU0Nn0.HCG5sRM0nygXcqKgGOMCOiFI6O9V5iZ-V-QLkFnAkdRO_DcM-dZFhtzQg9BPjpUHPppaCZF_KjbGvWOEAWeUFjpIA5OB7Ak2us4M-ZGABZu10BQE21P3EHY7Q9QqJ7hk8GGDeDZQ8fghi2dApxGvSTR8EAwGwnOBFowZUcl9GL_y0M5NvVu-f7fe4M4rpMyvCOQ1F0QxcV2fYKE6jP_KJ53yucf0wCEPFj7qbju39pJ2U2AMg0CnsXjiufQQTzHfJDGykzZg8CMMm2VW1N377L5BNnNCCM9d5GrKm52cND5CQNw7y6FoXUlUmsOLkMsKhpfSjldZMqXBDBh1vxWxRw
+    description: ""
+    type: text
+    multiline: text/plain
+headers:
+  - id: pair_9813b9dad020404aa206cceaf5afd989
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+authentication: {}
+metaSortKey: -1666527486089.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

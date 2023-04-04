@@ -1,0 +1,37 @@
+_id: req_07d6105dfcd240ce8c1b65224bac7777
+type: Request
+parentId: fld_5c79a72211bf4601ad9feef7d3b744a3
+modified: 1651076500220
+created: 1651076500220
+url: "{{evagrSIT}}/config/invoiceSections/:id"
+name: /invocieSections/{ID}
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"id\": \"61b33742b847fa2abc73c922\",\r
+
+    \    \"type\": \"additionalCharge\",\r
+
+    \    \"priceType\": \"activationFee\",\r
+
+    \    \"sort\": 1,\r
+
+    \    \"invoiceLineId\": \"onetime_telco\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500220
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

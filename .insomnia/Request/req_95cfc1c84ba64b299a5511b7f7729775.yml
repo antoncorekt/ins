@@ -1,0 +1,58 @@
+_id: req_95cfc1c84ba64b299a5511b7f7729775
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1678664529210
+created: 1678055239974
+url: http://localhost:8088/v1/external/documents
+name: /DM document
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"id": "4e01c373-0427-4799-95f5-11a79f0b17b4",
+    	"href": "http://dis-sit.unx.t-mobile.pl:8080/documentManagement/v1/documents/6283da88d389b076ff773863",
+    	"documentType": "consent",
+    	"lifecycleState": "final",
+    	"version": "1.0",
+    	"creationDate": "2022-04-26T14:26:59Z",
+    	"lastUpdate": "2022-04-26T14:26:59Z",
+    	"relatedObject": {},
+    	"relatedParty": {},
+    	"attachments": [
+    		{
+    			"id": "4e01c373-0427-4799-95f5-11a79f0b17b4",
+    			"href": "href://NtGWywZMAIejnry",
+    			"name": "INVOICE.pdf",
+    			"type": "Inny",
+    			"mimeType": "application/pdf",
+    			"size": 153389,
+    			"sizeUnit": "bytes",
+    			"url": "url://NtGWywZMAIejnry",
+    			"documentSpecifications": [
+    				{
+    					"id": "B2C.HardwareCorrectiveInvoice"
+    				}
+    			]
+    		}
+    	],
+    	"documentSpecifications": [
+    		{
+    			"id": "B2C.HardwareCorrectiveInvoice"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678055239974
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_9c791cfc85274be094192d06b511bb02
+type: Request
+parentId: fld_f07c3860c50f49cfbc001ba8218ab484
+modified: 1677750596208
+created: 1677673892239
+url: "{{ _.ngcbmGateway }}/accountTransactionSync/exportAll"
+name: /allAccountBalanseExport
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_6e6bdc33f22b4fe290fa2c4f44cef9ae
+    name: mode
+    value: FULL
+    description: ""
+    disabled: true
+headers:
+  - id: pair_68e4709ca6f94d3883ebe29a50225bb6
+    name: Content-Type
+    value: application/stream+json
+    description: ""
+authentication: {}
+metaSortKey: -1675212420143.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

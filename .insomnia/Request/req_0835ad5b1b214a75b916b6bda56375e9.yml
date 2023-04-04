@@ -1,0 +1,21 @@
+_id: req_0835ad5b1b214a75b916b6bda56375e9
+type: Request
+parentId: fld_f07c3860c50f49cfbc001ba8218ab484
+modified: 1675422671386
+created: 1675297347617
+url: "{{ _.ngcbmGateway }}/rbmMigration/billingAccountId/3000017500/migrate"
+name: /migrate
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1675297347617
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

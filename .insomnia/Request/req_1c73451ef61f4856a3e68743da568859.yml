@@ -1,0 +1,21 @@
+_id: req_1c73451ef61f4856a3e68743da568859
+type: Request
+parentId: fld_19afc9e27145400d87c3ed3dc1493a2e
+modified: 1674039265014
+created: 1674039222217
+url: "{{ _.billWOrker }}/billingCycles?billingCycleSpecificationId=CBM-P1M-1-1-A"
+name: /billCycles
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657881523107.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

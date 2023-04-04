@@ -1,0 +1,22 @@
+_id: env_a80ba41a79084566a41fd82c31eb6dc6
+type: Environment
+parentId: env_01a801cf4ce2524c033e6342a63a9067869cc342
+modified: 1679050248627
+created: 1656442074617
+name: prod
+data:
+  gatewayH01: http://cbm-prod.kopernik.t-mobile.pl/cbm/prod/api
+  billWOrker: http://ngcbm-prod.kopernik.t-mobile.pl/bill
+  aggregator: http://ngcbm-prod.kopernik.t-mobile.pl/aggregator
+  ngcbmGateway: http://ngcbm-prod.kopernik.t-mobile.pl/customerBill
+  idm: https://idm.t-mobile.pl
+dataPropertyOrder:
+  "&":
+    - gatewayH01
+    - billWOrker
+    - aggregator
+    - ngcbmGateway
+    - idm
+color: null
+isPrivate: false
+metaSortKey: 1656442074617

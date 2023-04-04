@@ -1,0 +1,26 @@
+_id: req_0dbe109376b146958ed99a69f5542c9b
+type: Request
+parentId: fld_f07c3860c50f49cfbc001ba8218ab484
+modified: 1678956478942
+created: 1675421792385
+url: "{{ _.ngcbmGateway }}/v1/customerBills?billingAccount.Id=300000001"
+name: /customerBills
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_523bd9587c94465198e5bea558307cdc
+    name: Authorization
+    value: Bearer
+      eyJraWQiOiJlaFltWW5OK3Q2WnVXWmJXbnd2dTVBPT0iLCJhbGciOiJQUzUxMiJ9.eyJzdWIiOiJjYm0iLCJhdWQiOiJjYm0iLCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6W119fSwibmJmIjowLCJjbGllbnRJZCI6ImNibSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6W119LCJzY29wZSI6WyJkZWZhdWx0Il0sImlzcyI6InQtbW9iaWxlLnBsIiwiZXhwIjoxNjc4MzYxNzkyLCJ0eXBlIjoiYmVhcmVyIiwiaWF0IjoxNjc4MzU4MTkyLCJqdGkiOiJjMmZjZDJiMy0zN2ViLTQ5YzgtOTdjZi1kMGRmNTY3YzAxZmUifQ.T5giwiirpD9OweAv0AtIPKM6Ru_VicNeeblysaWAFDWwx_2-rc-ZzZX8_iQgALq7-5HwsnA4YF9VJTQDEamkPKyEc7Tp6gailARnnwZ_kyW1hNYcBgQlHUlSp4nE2WGQir5tzypR6YVg537RnX7D9NkY74MkIDRGRCfNm_3En6WU3eMzn9iNzHhoPfzro6waWZpJffLeDj2BVeqd-R33MgWH0l3IMUVERpQ2uJXtorZ1Ax-CSfuU92HYK2AmXA1mMqIQQo65zkTXmZnBljVGhf0LIOrla2zGuryq5WjXkPhamsFAaVzb-23QvzpEY-g65H2j4NvgMOh808APWdlAGg
+    description: ""
+authentication: {}
+metaSortKey: -1675184110986
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

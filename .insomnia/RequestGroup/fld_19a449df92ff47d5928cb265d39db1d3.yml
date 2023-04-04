@@ -1,0 +1,28 @@
+_id: fld_19a449df92ff47d5928cb265d39db1d3
+type: RequestGroup
+parentId: wrk_f388b2eb275846f0ae8d7c675fcf3e41
+modified: 1651076503242
+created: 1651076503242
+name: CustomerBillManagment
+description: ""
+environment:
+  eventAdapter: http://localhost:8233
+  worker: http://localhost:8083
+  workflow: http://localhost:8082
+  gateway: http://localhost:8088
+  mockService: http://localhost:8888
+  customerBillsUrl: /v1/external/customerBills
+  sit: http://dsp.corpo.t-mobile.pl/cbm/sit/api/
+  preprod: http://dsp.corpo.t-mobile.pl/cbm/preprod/api
+  preprodWorkflow: https://dsp.corpo.t-mobile.pl/cbm/preprod/workflow
+  evagr: http://localhost:8652
+  evagrDev: http://ngcbm-dev.kopernik.t-mobile.pl/ngcbm-evagr-mongo
+  evagrSIT: http://ngcbm-sit.kopernik.t-mobile.pl/ngcbm-evagr-mongo
+  evagrTst: http://ngcbm-test.kopernik.t-mobile.pl/ngcbm-evagr-mongo
+  eventAdapterSIT: http://ngcbm-sit.kopernik.t-mobile.pl/ngcbm-event-adapter
+  evagrPREP: http://ngcbm-prep.kopernik.t-mobile.pl/ngcbm-evagr-mongo
+  gatewayCBm_prep: http://cbm-prep.t-mobile.pl/cbm/preprod/api
+  evagrPROD: http://ngcbm-prod.kopernik.t-mobile.pl
+  eventAdapterPROD: http://ngcbm-prod.kopernik.t-mobile.pl/ngcbmEventAdapter
+environmentPropertyOrder: null
+metaSortKey: -1651076503242

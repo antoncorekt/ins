@@ -1,0 +1,29 @@
+_id: req_4bf27664a8fb47d59017a5fb092cd855
+type: Request
+parentId: fld_2cf07f258da84ba6a96bddf893876ab4
+modified: 1665140655210
+created: 1659089866130
+url: http://dis-prod.unx.t-mobile.pl/cbm/v1/customerBills/390113/delivery
+name: POST OFS DELIVER
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_f2e2697e7d364637ba559c47a113dfc7
+    name: x-request-callbackurl
+    value: http://tofsappprd1.unx.t-mobile.pl:48571/ofs/customerBills/delivery/callback
+    description: ""
+  - id: pair_b0d8c066f8b34890a5a6398af6f244b3
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1659089866130
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

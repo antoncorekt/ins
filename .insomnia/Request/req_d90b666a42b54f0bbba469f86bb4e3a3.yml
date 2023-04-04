@@ -1,0 +1,21 @@
+_id: req_d90b666a42b54f0bbba469f86bb4e3a3
+type: Request
+parentId: fld_c56dd898363541d384d53c79912ba5c1
+modified: 1679402739957
+created: 1672873033361
+url: "{{ _.billWOrker }}/config/cache"
+name: GET /cache
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1672873033361
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_0c95a3d0f2e14e73a71421ac9cae3129
+type: Request
+parentId: fld_19afc9e27145400d87c3ed3dc1493a2e
+modified: 1680612586242
+created: 1659650337731
+url: "{{ _.billWOrker }}/billingProcess/CBM704T"
+name: /billingProcess/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1658120937680.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

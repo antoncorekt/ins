@@ -1,0 +1,40 @@
+_id: req_ad8a090134e74dceb40bbdbfc80ffdcf
+type: Request
+parentId: fld_c645a74f7591428db85493bcc2c12efa
+modified: 1651076500269
+created: 1651076500269
+url: "{{mockService}}/test/ocsEvent"
+name: createOcsEvent
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+    	"eventId": 13,
+    	"state": "N",
+    	"eventType": 1,
+    	"eventDate": "2019-06-05T12:37:19.079Z",
+    	"entryDate": "2019-06-05T12:37:19.079Z",
+    	"expireDate": "2019-06-05T12:37:19.079Z",
+    	"startDate": "2019-06-05T12:37:19.079Z",
+    	"notificationCode": 6009,
+    	"msisdn": "733888999",
+    	"value": 0,
+    	"initialAmount": 4460,
+    	"nextPir": "nextPir",
+    	"accountid1": 24361234
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500269
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

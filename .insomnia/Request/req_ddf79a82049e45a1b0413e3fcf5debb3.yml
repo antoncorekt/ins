@@ -1,0 +1,183 @@
+_id: req_ddf79a82049e45a1b0413e3fcf5debb3
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1651076500301
+created: 1651076500301
+url: "{{gateway}}/v1/external/customerBills"
+name: /customerBill RECCURING
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+
+        "runType": "onCycle",
+        "relatedEntities": [
+            {
+                "entityType": "product",
+                "relationType": "reference",
+                "relatedEntityId": "P-23433"
+            },
+            {
+                "entityType": "mainBillingProductId",
+                "relationType": "reference",
+                "relatedEntityId": "c96234954"
+            },
+            {
+                "entityType": "serviceID",
+                "relationType": "reference",
+                "relatedEntityId": "48602206519"
+            }
+        ],
+        "billPeriod": {
+            "startDateTime": "2021-02-05T00:00:00+01:00",
+            "endDateTime": "2021-03-07T00:00:00+01:00"
+        },
+        "amountDue": {
+            "units": "PLN",
+            "amount": 95
+        },
+
+        "taxIncludedAmount": {
+            "units": "PLN",
+            "amount": 95
+        },
+        "billingAccount": {
+            "id": "87547525"
+        },
+        "paymentMethod": {
+            "id": "{Payment_Method_ID}",
+            "type": "tokenizedCard"
+        },
+        "relatedParty": [
+            {
+                "entityReferredType": "Party",
+                "id": "b832d7cd-1acf-467c-9a18-61b6356929fb",
+                "role": "profile"
+            }
+        ],
+        "expirationDate": "2021-02-19T00:00:00+01:00",
+        "category": "recurringPayment",
+        "channel": {
+            "id": "SM"
+        },
+        "externalID": "{{$guid}}",
+        "contacts": [
+            {
+                "id": "1",
+                "group": "personal",
+                "type": "email",
+                "medium": {
+                    "emailAddress": "contact@contact.pl"
+                }
+            },
+            {
+                "id": "2",
+                "group": "personal",
+                "type": "mobile",
+                "medium": {
+                    "number": "+491523456789"
+                }
+            }
+        ],
+        "appliedCustomerBillingRates": [
+            {
+                "id": "26449-1",
+                "seqno": "1",
+                "name": "Taurus 25",
+                "description": "oplata",
+                "type": "recurringCharge",
+                "period": {
+                    "startDateTime": "2021-02-05T00:00:00+01:00",
+                    "endDateTime": "2021-03-07T00:00:00+01:00"
+                },
+                "taxIncludedAmount": {
+                    "units": "PLN",
+                    "amount": 15
+                },
+                "productID": "61f39ea7-dfe0-4f72-bed6-2fb84c2dc7e",
+                "productSpecification": {
+                    "id": "supernetDVD_spec"
+                },
+                "recurringChargeDuration": "30"
+            },
+            {
+                "id": "26449-2",
+                "seqno": "2",
+                "name": "Sprzęt",
+                "description": "oplata",
+                "type": "recurringCharge",
+                "period": {
+                    "startDateTime": "2021-02-05T00:00:00+01:00",
+                    "endDateTime": "2021-03-07T00:00:00+01:00"
+                },
+                "taxIncludedAmount": {
+                    "units": "PLN",
+                    "amount": 50
+                },
+                "productID": "61f39ea7-dfe0-4f72-bed6-2fb84c2dc7e",
+                "productSpecification": {
+                    "id": "TnS_World30MB_7d_spec"
+                },
+                "recurringChargeDuration": "40"
+            },
+            {
+                "id": "26449-3",
+                "seqno": "3",
+                "name": "discount",
+                "description": "oplata",
+                "type": "recurringCharge",
+                "period": {
+                    "startDateTime": "2021-02-05T00:00:00+01:00",
+                    "endDateTime": "2021-03-07T00:00:00+01:00"
+                },
+                "taxIncludedAmount": {
+                    "units": "PLN",
+                    "amount": 30
+                },
+                "productID": "61f39ea7-dfe0-4f72-bed6-2fb84c2dc7e",
+                "productSpecification": {
+                    "id": "internationalEU220_spec"
+                },
+                "recurringChargeDuration": "30"
+            }
+        ],
+        "characteristics": [
+            {
+                "name": "orderURL",
+                "value": "201"
+            },
+            {
+                "name": "orderID",
+                "value": "orderIDvalue8"
+            },
+            {
+                "name": "balanceId",
+                "value": "26449"
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-Request-Id
+    value: "{{$guid}}"
+  - name: X-Trace-Id
+    value: 3ascas33
+  - name: X-Session-Id
+    value: csdcs3ascas
+  - name: channel
+    value: sklepTmobilePL
+  - name: x-tenant-id
+    value: Heyah
+authentication: {}
+metaSortKey: -1651076500301
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

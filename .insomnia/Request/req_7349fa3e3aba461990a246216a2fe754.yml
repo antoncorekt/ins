@@ -1,0 +1,21 @@
+_id: req_7349fa3e3aba461990a246216a2fe754
+type: Request
+parentId: fld_88546aba7ace4e5f9c7d3c4e58e53b46
+modified: 1675265041420
+created: 1669245811613
+url: "{{ _.billWOrker }}/correctiveTask/?rql=in(id,T73,T72)"
+name: /correctiveTask
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667559426066
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

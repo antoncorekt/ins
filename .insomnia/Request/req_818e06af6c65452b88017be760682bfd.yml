@@ -1,0 +1,21 @@
+_id: req_818e06af6c65452b88017be760682bfd
+type: Request
+parentId: fld_133abf85cf9440099ccae382822a18fb
+modified: 1672310244772
+created: 1672150796320
+url: "{{ _.billWOrker }}/cbDetails?customerBillId=CB13539T"
+name: GET /cbDetails
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1672150796320
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

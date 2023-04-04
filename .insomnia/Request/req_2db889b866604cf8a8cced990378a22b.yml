@@ -1,0 +1,29 @@
+_id: req_2db889b866604cf8a8cced990378a22b
+type: Request
+parentId: fld_b5aeeb5f19814c9db7131bc4275ef2a2
+modified: 1666696091801
+created: 1666006032809
+url: cbm-prod.kopernik.t-mobile.pl/cbm/prod/workflow/customerBills/373661/document
+name: receivePostDocument
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 10044
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ad1aa43501444253bfba95b491b7eb4e
+authentication: {}
+metaSortKey: -1651076500247.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_2d825e70d6e942a59715ec259fcae722
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1651076500293
+created: 1651076500293
+url: "{{gateway}}/{{customerBillsUrl}}/:CUSTOMER_BILL_ID/paymentOrder/:PAYMENT_ID"
+name: Unpaid /customerBills/{ID}/paymentOrder/{PAYMENT_ID}
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: "  {\"state\": \"Unpaid\",\r
+
+    \    \"stateReason\": \"brak środków\",\r
+
+    \   \r
+
+    \    \"paymentDate\": \"2019-06-05T12:37:19.079Z\"\r
+
+    \    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500293
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

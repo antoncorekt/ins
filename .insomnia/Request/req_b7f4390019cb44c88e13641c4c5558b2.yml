@@ -1,0 +1,33 @@
+_id: req_b7f4390019cb44c88e13641c4c5558b2
+type: Request
+parentId: fld_5c79a72211bf4601ad9feef7d3b744a3
+modified: 1651076500211
+created: 1651076500211
+url: "{{evagrSIT}}/config/usageSections"
+name: GET ALL /usageSections
+description: ""
+method: GET
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"usageSubCategoryId\": \"rcs\",\r
+
+    \    \"usageSectionName\": \"RCS A2P\"\r
+
+    \r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500211
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

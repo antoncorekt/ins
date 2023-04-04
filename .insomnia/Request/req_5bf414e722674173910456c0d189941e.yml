@@ -1,0 +1,21 @@
+_id: req_5bf414e722674173910456c0d189941e
+type: Request
+parentId: fld_88546aba7ace4e5f9c7d3c4e58e53b46
+modified: 1675265053300
+created: 1671550670605
+url: "{{ _.billWOrker }}/correctiveTask/acceptTasks?rql=in(id,T72,T73)"
+name: /acceptTasks
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671550670605
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

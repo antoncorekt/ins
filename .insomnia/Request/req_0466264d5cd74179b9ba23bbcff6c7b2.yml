@@ -1,0 +1,172 @@
+_id: req_0466264d5cd74179b9ba23bbcff6c7b2
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1679408471915
+created: 1651076500308
+url: "{{ _.gatewayH01 }}/v1/external/customerBills"
+name: /customerBill FIRST_PAYMENT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "runType": "offCycle",
+        "relatedEntities": [
+            {
+                "entityType": "product",
+                "relationType": "reference",
+                "relatedEntityId": "P-23437"
+            },
+            {
+                "entityType": "mainBillingProductId",
+                "relationType": "reference",
+                "relatedEntityId": "96234919"
+            },
+            {
+                "entityType": "serviceID",
+                "relationType": "reference",
+                "relatedEntityId": "48602206519"
+            }
+        ],
+        "billPeriod": {
+            "startDateTime": "2019-08-01T02:00:00+02:00",
+            "endDateTime": "2019-08-31T02:00:00+02:00"
+        },
+        "taxIncludedAmount": {
+            "units": "PLN",
+            "amount": 90.20
+        },
+        "billingAccount": {
+            "id": "87547455"
+        },
+        "paymentMethod": {
+            "id": "e37da321-f693-485b-bedd-b5cbc347ae6e",
+            "type": "payByLink"
+        },
+        "relatedParty": [
+            {
+                "entityReferredType": "Party",
+                "id": "2144065",
+                "role": "profile"
+            }
+        ],
+        "expirationDate": "2020-08-14T17:13:31+02:00",
+        "category": "firstPayment",
+        "channel": {
+            "id": "OFS"
+        },
+        "externalID": "2134542332423",
+        "contacts": [
+            {
+                "id": "1",
+                "group": "personal",
+                "type": "email",
+                "medium": {
+                    "emailAddress": "contact@contact.pl"
+                }
+            },
+            {
+                "id": "2",
+                "group": "personal",
+                "type": "mobile",
+                "medium": {
+                    "number": "+491523456789"
+                }
+            }
+        ],
+        "appliedCustomerBillingRates": [
+            {
+                "id": "3010-1",
+                "seqno": "1",
+                "name": "Taurus 25",
+                "description": "oplata",
+                "type": "recurringCharge",
+                "period": {
+                    "startDateTime": "2019-08-01T02:00:00+02:00",
+                    "endDateTime": "2019-08-31T02:00:00+02:00"
+                },
+                "taxIncludedAmount": {
+                    "units": "PLN",
+                    "amount": 10.05
+                },
+                "productID": "61f39ea7-dfe0-4f72-bed6-2fb84c2dc7e",
+                "productSpecification": {
+                    "id": "internationalEU120rec_spec"
+                },
+                "recurringChargeDuration": "30"
+            },
+            {
+                "id": "3010-2",
+                "seqno": "2",
+                "name": "Sprzęt",
+                "description": "oplata",
+                "type": "recurringCharge",
+                "period": {
+                    "startDateTime": "2019-08-01T02:00:00+02:00",
+                    "endDateTime": "2019-08-31T02:00:00+02:00"
+                },
+                "taxIncludedAmount": {
+                    "units": "PLN",
+                    "amount": 50.15
+                },
+                "productID": "61f39ea7-dfe0-4f72-bed6-2fb84c2dc7e",
+                "productSpecification": {
+                    "id": "TnS_UE1GB_7d_spec"
+                },
+                "recurringChargeDuration": "40"
+            },
+            {
+                "id": "3010-3",
+                "seqno": "3",
+                "name": "usługa cykliczna",
+                "description": "oplata",
+                "type": "recurringCharge",
+                "period": {
+                    "startDateTime": "2019-08-01T02:00:00+02:00",
+                    "endDateTime": "2019-08-31T02:00:00+02:00"
+                },
+                "taxIncludedAmount": {
+                    "units": "PLN",
+                    "amount": 30
+                },
+                "productID": "61f39ea7-dfe0-4f72-bed6-2fb84c2dc7e",
+                "productSpecification": {
+                    "id": "national5GB_spec"
+                },
+                "recurringChargeDuration": "30"
+            }
+        ],
+        "characteristics": [
+            {
+                "name": "balanceId",
+                "value": "8080"
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_91da5ee629ca4552a578794cc6ff8472
+  - name: x-request-session-id
+    value: session-asascs
+    id: pair_587b3710fc6d43b8b2dfdc72f908b6d6
+    disabled: true
+  - name: x-request-tracking-id
+    value: traking-ascsaca-1
+    id: pair_36e6d74ecb5f4df981172e0732209550
+    disabled: true
+  - name: x-request-id
+    value: request-fdbdcsd
+    id: pair_8bd2271a6bd94390a9023645c4999309
+    disabled: true
+authentication: {}
+metaSortKey: -1651076500308
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: true
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

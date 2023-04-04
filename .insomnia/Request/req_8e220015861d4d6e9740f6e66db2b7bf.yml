@@ -1,0 +1,30 @@
+_id: req_8e220015861d4d6e9740f6e66db2b7bf
+type: Request
+parentId: fld_8b233e8dad6b4d86bcaa64fa1a180935
+modified: 1671180581021
+created: 1661160249318
+url: http://dis-prod.unx.t-mobile.pl/productOrdering/v3/productOrders
+name: remove blokade
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"channel":{"id":"Payments"},"characteristics":[{"name":"subType","value":"paymentBarring"}],"orderItems":[{"action":"delete","id":"02","orderItemRelationships":[{"id":"01","type":"dependsOn"}],"product":{"productSpecification":{"id":"taurusBlockNoInvoicePaid_spec"}}},{"action":"modify","id":"01","orderItemRelationships":[{"id":"02","type":"includes"}],"product":{"id":"P-PRD-1936153","productSpecification":{"id":"taurusSubscription_spec"}}}],"orderType":"Modification","priority":1}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a38ad6575af94aaab1c4c02001a76983
+  - id: pair_69f4435a47354110a9a44ec1f01b38a1
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1661160249318
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

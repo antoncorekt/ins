@@ -1,0 +1,23 @@
+_id: req_5732aae4f9fc4232ba2eacaa431e0093
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1651076500284
+created: 1651076500284
+url: "{{gateway}}/v1/external/document/:DOC_ID/callback"
+name: /document/{DOC_ID}/callback
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500284
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

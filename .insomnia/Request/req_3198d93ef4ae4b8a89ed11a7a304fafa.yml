@@ -1,0 +1,21 @@
+_id: req_3198d93ef4ae4b8a89ed11a7a304fafa
+type: Request
+parentId: fld_ab715bde2e9e4e98abc8a1ccc59bef93
+modified: 1652429151573
+created: 1651076500235
+url: "{{ _.evagr }}/customerBills/627e10ecf36f223e907e1199"
+name: /customerBill/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651076500235
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

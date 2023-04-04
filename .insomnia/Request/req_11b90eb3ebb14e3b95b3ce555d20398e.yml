@@ -1,0 +1,21 @@
+_id: req_11b90eb3ebb14e3b95b3ce555d20398e
+type: Request
+parentId: fld_133abf85cf9440099ccae382822a18fb
+modified: 1672152079066
+created: 1671659019535
+url: "{{ _.billWOrker }}/correctiveTask/?rql=eq(id,T41)"
+name: GET /correctiveTasks
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671659019535
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

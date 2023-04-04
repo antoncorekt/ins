@@ -1,0 +1,29 @@
+_id: req_58bf8b4520b145f494c17a323695f780
+type: Request
+parentId: fld_19afc9e27145400d87c3ed3dc1493a2e
+modified: 1678737964100
+created: 1658441320734
+url: http://ngcbm-prod.kopernik.t-mobile.pl/bill/billingProcess/CBM2P/executions/CBM2P__GENERATE_EVENT_BUS_EVENTS__CBM2P__3000056655__13/run
+name: /billingProcess/{id}/executions/{id}/run
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_981a0550cf2149eb8c67c3aa14e9e4d8
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_d684ee0a0d3a4716806a57aec54f34e9
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1658441320734
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

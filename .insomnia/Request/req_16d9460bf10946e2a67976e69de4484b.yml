@@ -1,0 +1,21 @@
+_id: req_16d9460bf10946e2a67976e69de4484b
+type: Request
+parentId: fld_05ff17458ebe493fb3dc0ea3f33c9fcd
+modified: 1672393891076
+created: 1672393854530
+url: "{{ _.billWOrker }}/actuator/health"
+name: billWorkerActuator
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1672393854530
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_c17d8b754fbd412b98c4268a9ff9147a
+type: Request
+parentId: fld_2cf07f258da84ba6a96bddf893876ab4
+modified: 1667218855336
+created: 1660898416518
+url: http://tofsappprd1.unx.t-mobile.pl:48571/ofs/customerBills/delivery/callback
+name: OFS MANUAL CALLBACK DELIVERY
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "369039",
+    	"state": "sent"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_da197782db1b4658a021c559c49f5aca
+authentication: {}
+metaSortKey: -1660898416518
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

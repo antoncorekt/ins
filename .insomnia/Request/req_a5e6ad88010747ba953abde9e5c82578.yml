@@ -1,0 +1,295 @@
+_id: req_a5e6ad88010747ba953abde9e5c82578
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1651076500295
+created: 1651076500295
+url: "{{gateway}}/v1/external/customerBills"
+name: /customerBill REACTIVATION_PAYMENT
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \    \"runType\": \"offCycle\",\r
+
+    \    \"relatedEntities\": [\r
+
+    \        {\r
+
+    \            \"entityType\": \"product\",\r
+
+    \            \"relationType\": \"reference\",\r
+
+    \            \"relatedEntityId\": \"P-23437\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"entityType\": \"mainBillingProductId\",\r
+
+    \            \"relationType\": \"reference\",\r
+
+    \            \"relatedEntityId\": \"c96234919\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"entityType\": \"serviceID\",\r
+
+    \            \"relationType\": \"reference\",\r
+
+    \            \"relatedEntityId\": \"48602206519\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"billPeriod\": {\r
+
+    \        \"startDateTime\": \"2019-08-01T02:00:00+02:00\",\r
+
+    \        \"endDateTime\": \"2019-08-31T02:00:00+02:00\"\r
+
+    \    },\r
+
+    \    \"taxIncludedAmount\": {\r
+
+    \        \"units\": \"PLN\",\r
+
+    \        \"amount\": 90.2\r
+
+    \    },\r
+
+    \    \"billingAccount\": {\r
+
+    \        \"id\": \"87547455\"\r
+
+    \    },\r
+
+    \    \"paymentMethod\": {\r
+
+    \        \"id\": \"e37da321-f693-485b-bedd-b5cbc347ae6e\",\r
+
+    \        \"type\": \"payByLink\"\r
+
+    \    },\r
+
+    \    \"relatedParty\": [\r
+
+    \        {\r
+
+    \            \"entityReferredType\": \"Party\",\r
+
+    \            \"id\": \"2144065\",\r
+
+    \            \"role\": \"profile\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"expirationDate\": \"2020-08-14T17:13:31+02:00\",\r
+
+    \    \"category\": \"reactivationPayment\",\r
+
+    \    \"channel\": {\r
+
+    \        \"id\": \"OFS\"\r
+
+    \    },\r
+
+    \    \"externalID\": \"a137\",\r
+
+    \    \"contacts\": [\r
+
+    \        {\r
+
+    \            \"id\": \"1\",\r
+
+    \            \"group\": \"personal\",\r
+
+    \            \"type\": \"email\",\r
+
+    \            \"medium\": {\r
+
+    \                \"emailAddress\": \"contact@contact.pl\"\r
+
+    \            }\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"id\": \"2\",\r
+
+    \            \"group\": \"personal\",\r
+
+    \            \"type\": \"mobile\",\r
+
+    \            \"medium\": {\r
+
+    \                \"number\": \"+491523456789\"\r
+
+    \            }\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"appliedCustomerBillingRates\": [\r
+
+    \        {\r
+
+    \            \"id\": \"3010-1\",\r
+
+    \            \"seqno\": \"1\",\r
+
+    \            \"name\": \"Taurus 25\",\r
+
+    \            \"description\": \"oplata\",\r
+
+    \            \"type\": \"recurringCharge\",\r
+
+    \            \"period\": {\r
+
+    \                \"startDateTime\": \"2019-08-01T02:00:00+02:00\",\r
+
+    \                \"endDateTime\": \"2019-08-31T02:00:00+02:00\"\r
+
+    \            },\r
+
+    \            \"taxIncludedAmount\": {\r
+
+    \                \"units\": \"PLN\",\r
+
+    \                \"amount\": 10.05\r
+
+    \            },\r
+
+    \            \"productID\": \"61f39ea7-dfe0-4f72-bed6-2fb84c2dc7e\",\r
+
+    \            \"productSpecification\": {\r
+
+    \                \"id\": \"internationalEU120rec_spec\"\r
+
+    \            },\r
+
+    \            \"recurringChargeDuration\": \"30\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"id\": \"3010-2\",\r
+
+    \            \"seqno\": \"2\",\r
+
+    \            \"name\": \"Sprzęt\",\r
+
+    \            \"description\": \"oplata\",\r
+
+    \            \"type\": \"recurringCharge\",\r
+
+    \            \"period\": {\r
+
+    \                \"startDateTime\": \"2019-08-01T02:00:00+02:00\",\r
+
+    \                \"endDateTime\": \"2019-08-31T02:00:00+02:00\"\r
+
+    \            },\r
+
+    \            \"taxIncludedAmount\": {\r
+
+    \                \"units\": \"PLN\",\r
+
+    \                \"amount\": 50.15\r
+
+    \            },\r
+
+    \            \"productID\": \"61f39ea7-dfe0-4f72-bed6-2fb84c2dc7e\",\r
+
+    \            \"productSpecification\": {\r
+
+    \                \"id\": \"TnS_UE1GB_7d_spec\"\r
+
+    \            },\r
+
+    \            \"recurringChargeDuration\": \"40\"\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"id\": \"3010-3\",\r
+
+    \            \"seqno\": \"3\",\r
+
+    \            \"name\": \"usługa cykliczna\",\r
+
+    \            \"description\": \"oplata\",\r
+
+    \            \"type\": \"recurringCharge\",\r
+
+    \            \"period\": {\r
+
+    \                \"startDateTime\": \"2019-08-01T02:00:00+02:00\",\r
+
+    \                \"endDateTime\": \"2019-08-31T02:00:00+02:00\"\r
+
+    \            },\r
+
+    \            \"taxIncludedAmount\": {\r
+
+    \                \"units\": \"PLN\",\r
+
+    \                \"amount\": 30\r
+
+    \            },\r
+
+    \            \"productID\": \"61f39ea7-dfe0-4f72-bed6-2fb84c2dc7e\",\r
+
+    \            \"productSpecification\": {\r
+
+    \                \"id\": \"national5GB_spec\"\r
+
+    \            },\r
+
+    \            \"recurringChargeDuration\": \"30\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"characteristics\": [\r
+
+    \        {\r
+
+    \            \"name\": \"balanceId\",\r
+
+    \            \"value\": \"8080\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+parameters: []
+headers:
+  - name: channel
+    value: sklep
+  - name: x-tenant-id
+    value: Heyah
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500295
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

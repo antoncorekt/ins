@@ -1,0 +1,32 @@
+_id: env_715b6adc75bc4094961c46094292f1bc
+type: Environment
+parentId: env_01a801cf4ce2524c033e6342a63a9067869cc342
+modified: 1679050257250
+created: 1656442048328
+name: sit
+data:
+  evagr: http://ngcbm-sit.kopernik.t-mobile.pl/ngcbm-evagr-mongo/
+  cbGateway: http://localhost:8652
+  deg: http://localhost:8652
+  rbmAdapter: http://localhost:8652
+  sequensGenerator: http://localhost:8652
+  gatewayH01: http://cbm-sit.kopernik.t-mobile.pl/cbm/sit/api
+  billWOrker: http://ngcbm-sit.kopernik.t-mobile.pl/bill
+  aggregator: http://ngcbm-sit.kopernik.t-mobile.pl/aggregator
+  ngcbmGateway: http://ngcbm-sit.kopernik.t-mobile.pl/customerBill
+  idm: https://idmsit.t-mobile.pl
+dataPropertyOrder:
+  "&":
+    - evagr
+    - cbGateway
+    - deg
+    - rbmAdapter
+    - sequensGenerator
+    - gatewayH01
+    - billWOrker
+    - aggregator
+    - ngcbmGateway
+    - idm
+color: null
+isPrivate: false
+metaSortKey: 1656442048328

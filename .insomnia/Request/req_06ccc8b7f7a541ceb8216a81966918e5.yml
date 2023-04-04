@@ -1,0 +1,36 @@
+_id: req_06ccc8b7f7a541ceb8216a81966918e5
+type: Request
+parentId: fld_2cf07f258da84ba6a96bddf893876ab4
+modified: 1667470570097
+created: 1666344220429
+url: http://tofsappprd2.unx.t-mobile.pl:48571/ofs/customerBills/callback/398118
+name: OFS MANUAL CALLBACK normal
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"id":"398118","type":"hardware","billNo":"490819441022","billType":"oneTimeInvoice","runType":"offCycle","state":"validated","lastUpdate":"2022-10-31T12:20:15.105103Z","billDate":"2022-10-07","taxableSupplyDate":"2022-10-07","paymentDueDate":"2022-10-21","taxExcludedAmount":{"units":"PLN","amount":0.93},"taxIncludedAmount":{"units":"PLN","amount":1},"taxAmount":{"units":"PLN","amount":0.07},"billingAccount":{"id":"77453296","name":"ANNA
+    KAPINOS","characteristics":[{"name":"billingSystem","value":"BSCS"},{"name":"billingInventoryId","value":"77453296"},{"name":"businessId","value":"1.12326599"},{"name":"businessId","value":"1.12326599"}]},"billDeliverySnapshots":[{"billingCycleSpecification":{"id":"05"},"billDestination":{"type":"emailAddress","emailAddress":"ANIA18.79@O2.PL","validated":true}}],"taxItem":[{"taxRate":8,"taxExcludedAmount":{"units":"PLN","amount":0.93},"taxIncludedAmount":{"units":"PLN","amount":1},"taxAmount":{"units":"PLN","amount":0.07}}],"billReceiver":{"partyValue":{"id":"1","role":"billReceiver","type":"individual","individual":{"givenName":"ANNA","familyName":"KAPINOS","title":"PANI","individualIdentifications":[{"identificationId":"79072816600","name":"PESEL","type":"socialSecurityNumber"},{"identificationId":"CCW080875","name":"ID","type":"nationalIdentityCard"}]},"contacts":[{"type":"address","role":{"name":"billing"},"medium":{"address":{"streetNr":"23","streetName":"WOLA
+    MIELECKA","postcode":"39-300","city":"WOLA
+    MIELECKA","country":"POL"},"emailAddress":"ANIA18.79@O2.PL"}}]}},"billPayer":{"partyValue":{"id":"1","role":"billPayer","type":"individual","individual":{"givenName":"ANNA","familyName":"KAPINOS","title":"PANI","individualIdentifications":[{"identificationId":"79072816600","name":"PESEL","type":"socialSecurityNumber"},{"identificationId":"CCW080875","name":"ID","type":"nationalIdentityCard"}]},"contacts":[{"type":"address","role":{"name":"billing"},"medium":{"address":{"streetNr":"23","streetName":"WOLA
+    MIELECKA","postcode":"39-300","city":"WOLA
+    MIELECKA","country":"POL"},"emailAddress":"ANIA18.79@O2.PL"}}]}},"billPayee":{"bankAccountValue":{"accountNumber":"PL25103019577777800774532963","accountNumberType":"IBAN","BIC":"CITIPLPX","bank":"Bank
+    Handlowy w Warszawie
+    S.A."},"partyValue":{"organization":{"isHeadOffice":true,"tradingName":"T-Mobile
+    Polska","nameType":"S.A","organizationIdentifications":[{"identificationId":"526-104-05-67","name":"NIP","type":"vatNumber"},{"identificationId":"011417295","name":"REGON","type":"subjectRegistrationId"}]},"contacts":[{"group":"business","type":"address","medium":{"address":{"streetNr":"12","streetName":"Marynarska","postcode":"02-674","city":"Warszawa","stateOrProvince":"mazowieckie","country":"POL"}}}]}},"relatedParty":[{"entityReferredType":"Party","id":"panteraIndPar-8404207","role":"owner"}],"relatedEntities":[{"entityType":"order","relationType":"reference","relatedEntityId":"P-ORD-3793337"},{"entityType":"agreement","relationType":"reference","relatedEntityId":"P-AGR-1231401"}],"category":"normal","externalID":"P-ORD-3793337","appliedCustomerBillingRates":[{"id":"398118001","name":"TV
+    Dekoder","description":"Dekoder Skyworth HY4402-
+    UsługaTV","priority":"1","aggregateLevel":"invoiceLine","type":"oneTimeCharge","taxExcludedAmount":{"units":"PLN","amount":0.93},"taxIncludedAmount":{"units":"PLN","amount":1},"unitMeasure":{"unit":"szt","amount":1},"appliedTax":[{"taxRate":8,"taxExcludedAmount":{"units":"PLN","amount":0.93},"taxIncludedAmount":{"units":"PLN","amount":1},"taxAmount":{"units":"PLN","amount":0.07}}],"characteristic":[{"name":"materialCode","value":"ST-M-T01010"},{"name":"serialNumber","value":"341220411081443"},{"name":"relatedProductType","value":"TV"},{"name":"businessProcess","value":"acquisition"}],"relatedEntities":[{"entityType":"orderItem","relationType":"reference","relatedEntityId":"P-PRD-6550161"}]}],"characteristics":[{"name":"retailShopNo","value":"0008"},{"name":"employeeNo","value":"R050S.00024"},{"name":"login","value":"KKolacz3"},{"name":"deliveryNoteNo","value":"7201986821"},{"name":"deliveryNoteYear","value":"2022"},{"name":"isVATPayer","value":"false"},{"name":"IFSTransactionId","value":"44750875"}]}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_da197782db1b4658a021c559c49f5aca
+authentication: {}
+metaSortKey: -1660274584292
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

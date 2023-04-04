@@ -1,0 +1,31 @@
+_id: req_dad7035c6ea7459abed6722a6fe830ec
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1651076500281
+created: 1651076500281
+url: "{{gateway}}/{{customerBillsUrl}}/:CUSTOMER_BILL_ID/paymentOrder"
+name: /customerBills/{ID}/paymentOrder
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "paymentRef": {
+            "id": "23251-NEW_ORDER_1"
+        },
+        "state": "Ordered"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500281
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

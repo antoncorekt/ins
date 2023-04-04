@@ -1,0 +1,28 @@
+_id: req_282cf8936a5e4f278072bcdd2906a2c9
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1665140920233
+created: 1651076500290
+url: "{{ _.gatewayH01 }}/{{customerBillsUrl}}/390113"
+name: /customerBills/{ID}
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: '{"name":"490787190922","billNo":"490787190922","state":"validated","billDate":"2022-09-30","taxableSupplyDate":"2022-09-30","paymentDueDate":"2022-10-14","taxExcludedAmount":{"units":"PLN","amount":0.93},"taxIncludedAmount":{"units":"PLN","amount":1},"taxItem":[{"taxRate":8,"taxExcludedAmount":{"units":"PLN","amount":0.93},"taxIncludedAmount":{"units":"PLN","amount":1},"taxAmount":{"units":"PLN","amount":0.07}}],"appliedCustomerBillingRates":[{"id":"390113001","description":"Dekoder
+    Skyworth HY4402-
+    UsługaTV","priority":"1","taxExcludedAmount":{"units":"PLN","amount":0.93},"taxIncludedAmount":{"units":"PLN","amount":1},"appliedTax":[{"taxRate":8,"taxExcludedAmount":{"units":"PLN","amount":0.93},"taxIncludedAmount":{"units":"PLN","amount":1},"taxAmount":{"units":"PLN","amount":0.07}}]}],"characteristics":[{"name":"IFSTransactionId","value":"44706705"}]}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a3b68262f99c432393ca227c8f3152a3
+authentication: {}
+metaSortKey: -1651076500290
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

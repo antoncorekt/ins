@@ -1,0 +1,103 @@
+_id: req_1c94df04a4e940fb8ba3433da8f597a2
+type: Request
+parentId: fld_7df2e60c441e4859b7fbcdf5849e9120
+modified: 1657884489969
+created: 1657801718283
+url: http://dis-prod.unx.t-mobile.pl/legacy/soabp/v1/document
+name: degProdPOstDocument
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"GenerateDocumentRequestData":{"Document":{"DocumentId":"410000140722","TemplateId":"Taurus
+    Hardware
+    Invoice","Channel":"CBM","AttributeList":[{"Name":"REPORT_ID","Value":"RETAIL_TRANS_V11_REP"},{"Name":"RESULT_KEY","Value":"140468911"},{"Name":"DAY_TRANS_NO","Value":"44196709"},{"Name":"REF_DATE","Value":"08.07.2022"},{"Name":"SALE_DATE","Value":"08.07.2022"},{"Name":"DOC_TITLE","Value":"Faktura
+    VAT"},{"Name":"ORG_COPY","Value":"Oryginał"},{"Name":"OCD_TYPE"},{"Name":"INVOICE_NO","Value":"410000140722"},{"Name":"BILL_NO","Value":"3664"},{"Name":"FISCAL_BILL_NO","Value":"3664"},{"Name":"FISCAL_PRINTER_NO","Value":"CCV1801258469"},{"Name":"FISCAL_DATE","Value":"08.07.2022"},{"Name":"BILL_NO_ADVANCE"},{"Name":"FISCAL_BILL_NO_ADVANCE"},{"Name":"FISCAL_PRINTER_NO_ADVANCE"},{"Name":"FISCAL_DATE_ADVANCE"},{"Name":"PAY_TERM","Value":"Normalny
+    - 14
+    dni"},{"Name":"PAY_TERM_TEXT","Value":"22.07.2022"},{"Name":"PAY_TERM_DESC","Value":"Termin
+    płatności
+    do"},{"Name":"PAY_DATE","Value":"22.07.2022"},{"Name":"PAY_TYPE","Value":"Przelew
+    bankowy"},{"Name":"DUE_PLACE","Value":"Warszawa"},{"Name":"RETAIL_SHOP","Value":"040L"},{"Name":"RETAIL_SHOP_DESC","Value":"Sklep
+    Sosnowiec II CH
+    Plaza"},{"Name":"RETAIL_EMPLOYEE","Value":"R040L.00003"},{"Name":"RETAIL_EMPLOYEE_DESC","Value":"Renata
+    Juszczyk"},{"Name":"CREATED_BY_NAME","Value":"Renata
+    Juszczyk"},{"Name":"NET","Value":"0.93"},{"Name":"VAT","Value":"0.07"},{"Name":"GROSS","Value":"1.00"},{"Name":"GROSS_IN_WORDS","Value":"jeden
+    złoty"},{"Name":"PAID_AMOUNT","Value":"1.00"},{"Name":"PAID_AMOUNT_DESC","Value":"Kwota
+    do
+    zapłaty"},{"Name":"CURR_CODE","Value":"PLN"},{"Name":"NET_CURR_AMOUNT","Value":"0.93"},{"Name":"VAT_CURR_AMOUNT","Value":"0.07"},{"Name":"GROSS_CURR_AMOUNT","Value":"1.00"},{"Name":"COMPANY","Value":"PTC"},{"Name":"COMP_NAME","Value":"T-Mobile
+    Polska S.A."},{"Name":"COMP_TAX_REG_NO","Value":"NIP
+    526-10-40-567"},{"Name":"COMP_ADDR1","Value":"ul. Marynarska
+    12"},{"Name":"COMP_ADDR2","Value":"02-674
+    Warszawa"},{"Name":"COMP_ADDR3"},{"Name":"CUSTOMER_ID","Value":"15798762"},{"Name":"CUSTOMER_CODE","Value":"1.04635720"},{"Name":"CUST_NAME","Value":"MARCIN
+    KONDRACKI"},{"Name":"CUST_TAX_REG_NO"},{"Name":"CUST_ADDR1","Value":"LEGIONÓW
+    POLSKICH 127/24"},{"Name":"CUST_ADDR2","Value":"41-310 DĄBROWA
+    GÓRNICZA"},{"Name":"CUST_ADDR3"},{"Name":"CUST_DELIV_ADDR1"},{"Name":"CUST_DELIV_ADDR2"},{"Name":"CUST_DELIV_ADDR3"},{"Name":"ACCOUNT_ID"},{"Name":"TEL_NO"},{"Name":"CUST_ACCOUNT_NO","Value":"BRE
+    S.A. III Filia O/Warszawa\n59 1140 1238 2444 8001 5798
+    7620"},{"Name":"CUST_BANK_NAME","Value":"Bank Rozwoju Eksportu S.A.\nul.
+    Piotrkowska 148/150, 90-063
+    Łódź"},{"Name":"DATA1","Value":"P-ORD-3236804"},{"Name":"DATA2"},{"Name":"DATA3"},{"Name":"DATA1_DESC","Value":"Nasz
+    nr zam."},{"Name":"DATA2_DESC","Value":"Nr zam.
+    klienta"},{"Name":"DATA3_DESC","Value":"Kod
+    transakcji"},{"Name":"UNIT_PRICE_DESCRIPTION","Value":"Cena jedn.
+    brutto"},{"Name":"INVERSED_VAT_INFO"},{"Name":"POSTAL_ORDER_AMOUNT","Value":"1.00"},{"Name":"POSTAL_ORDER_BANK_ACCOUNT","Value":"59
+    1140 1238 2444 8001 5798 7620
+    "},{"Name":"POSTAL_ORDER_BAR_CODE","Value":"205112130141100100114107122110146135172109100100100100100100100101100174206"},{"Name":"POSTAL_ORDER_KTR","Value":"/KTR/9302
+    4410 0001 4072 2800 0157 9876
+    2"},{"Name":"POSTAL_ORDER_BAR_CODE_2","Value":"12304100001407221046357209000000000000000100"},{"Name":"BAR_CODE_2","Value":"12304100001407221046357209000000000000000100"},{"Name":"BAR_CODE","Value":"12304100001407221046357209000000000000000100"},{"Name":"BAR_CODE_TYPE","Value":"BAR_CODE_CITY"},{"Name":"S_ATTR1","Value":"Podpis
+    i pieczątka osoby upoważnionej do odbioru
+    sprzętu."},{"Name":"S_ATTR2"},{"Name":"S_ATTR3"},{"Name":"S_ATTR4","Value":"7201323321"},{"Name":"S_ATTR5","Value":"2022"},{"Name":"ORDER_ID","Value":"P-ORD-3236804"},{"Name":"CUSTOMER_BILLING_ID","Value":"297076"}],"DocumentItemList":[{"Type":"LINE","AttributeList":[{"Name":"ROW_NO","Value":"1"},{"Name":"ROW_TYPE","Value":"1"},{"Name":"LINE_INFO"},{"Name":"PARENT_PART_NO"},{"Name":"PART_NO","Value":"ST-M-T01010"},{"Name":"PART_DESC","Value":"Dekoder
+    Skyworth HY4402-
+    UsługaTV"},{"Name":"U_M","Value":"szt"},{"Name":"QTY","Value":"1"},{"Name":"UNIT_PRICE_DESCRIPTION","Value":"Cena
+    jedn.
+    brutto"},{"Name":"UNIT_PRICE","Value":"0.93"},{"Name":"UNIT_PRICE_DISC","Value":"0.93"},{"Name":"DISCOUNT","Value":"0.00"},{"Name":"TOTAL_DISCOUNT","Value":"0.00"},{"Name":"VAT_CODE_ID","Value":"8%"},{"Name":"NET_VALUE","Value":"0.93"},{"Name":"VAT_VALUE","Value":"0.07"},{"Name":"GROSS_VALUE","Value":"1.00"},{"Name":"PART_SERIAL_NUM","Value":"341211111036324"},{"Name":"EVALUATION_TYPE_DB","Value":"G"},{"Name":"NET_UNIT_PRICE","Value":"0.93"},{"Name":"GROSS_UNIT_PRICE","Value":"1.00"},{"Name":"NET_CURR_AMOUNT","Value":"0.93"},{"Name":"VAT_CURR_AMOUNT","Value":"0.07"},{"Name":"GROSS_CURR_AMOUNT","Value":"1.00"},{"Name":"DISC_CURR_AMOUNT","Value":"0.00"}]},{"Type":"TAX_LINE","AttributeList":[{"Name":"ROW_NO","Value":"2"},{"Name":"ROW_TYPE","Value":"2"},{"Name":"VAT_INFO","Value":"Razem
+    VAT"},{"Name":"VAT_CODE","Value":"8%"},{"Name":"NET_VALUE","Value":"0.93"},{"Name":"VAT_VALUE","Value":"0.07"},{"Name":"GROSS_VALUE","Value":"1.00"},{"Name":"PART_SERIAL_NUM","Value":"Razem
+    VAT"}]},{"Type":"TAX_SUMMARY","AttributeList":[{"Name":"ROW_NO","Value":"3"},{"Name":"ROW_TYPE","Value":"3"},{"Name":"VAT_INFO","Value":"Razem"},{"Name":"NET_VALUE","Value":"0.93"},{"Name":"VAT_VALUE","Value":"0.07"},{"Name":"GROSS_VALUE","Value":"1.00"},{"Name":"PART_SERIAL_NUM","Value":"Razem"}]},{"Type":"TEXTS","AttributeList":[{"Name":"S1"},{"Name":"S2"},{"Name":"S3"},{"Name":"S4","Value":"Twoja
+    faktura"},{"Name":"S5"},{"Name":"S6","Value":"Nr rejestrowy BDO:
+    000020490\nBiuro Obsługi Abonenta 602 900 000\n24 godziny na dobę - opłata
+    zgodna z cennikiem"},{"Name":"S7","Value":"T-Mobile Polska S.A. jest
+    właścicielem sprzedawanych w promocyjnej cenie powyżej wskazanych urządzeń
+    do momentu zapłaty wszystkich należności za usługi za czas określony
+    powiązanej z tą sprzedażą umowy o świadczenie usług. Oznacza to m.in., że
+    kupujący do wskazanego momentu nie ma prawa sprzedać tych urządzeń. Do tej
+    chwili T-Mobile może blokować numer/y IMEI tych urządzeń (jeśli mają one
+    taki numer ? patrz wyżej), zgodnie z pkt 7 Umowy
+    Sprzedaży."},{"Name":"S8"},{"Name":"S9"},{"Name":"S10"},{"Name":"S11"},{"Name":"S12"},{"Name":"S13"},{"Name":"S14"},{"Name":"S15"},{"Name":"PAYMENT_INFO_TEXT1"},{"Name":"PAYMENT_INFO_TEXT2"},{"Name":"PAYMENT_INFO_TEXT3"},{"Name":"PAYMENT_INFO_TEXT4"},{"Name":"PAYMENT_INFO_TEXT5"},{"Name":"DISC_INFO_TEXT1"},{"Name":"DISC_INFO_TEXT2"},{"Name":"DISC_INFO_TEXT3"},{"Name":"DISC_INFO_TEXT4"},{"Name":"DISC_INFO_TEXT5"},{"Name":"PROM_INFO_TEXT1"},{"Name":"PROM_INFO_TEXT2"},{"Name":"PROM_INFO_TEXT3"},{"Name":"PROM_INFO_TEXT4"},{"Name":"PROM_INFO_TEXT5"},{"Name":"PAY_PLAN_INFO_TEXT1"},{"Name":"PAY_PLAN_INFO_TEXT2"},{"Name":"PAY_PLAN_INFO_TEXT3"},{"Name":"PAY_PLAN_INFO_TEXT4"},{"Name":"PAY_PLAN_INFO_TEXT5"}]}]},"RecipientEmail":"marc681@gmail.com","Adapter":"Taurus
+    Hardware Invoice Adapter","QualifiedTimestamp":"N","DigitalSignature":"N"}}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ac590d350b8942d4abb64347d23ab281
+  - id: pair_2281e9427d8a4e6a9061b437e02f99df
+    name: x-request-id
+    value: DEG[post_document]-297076
+    description: ""
+  - id: pair_56889c4e291a483d982c61bfff683a9a
+    name: x-request-tracking-id
+    value: "297076"
+    description: ""
+  - id: pair_e78e3d9cf7b84138a6c58b8082609d03
+    name: x-request-session-id
+    value: "297076"
+    description: ""
+  - id: pair_ce38c837507c40e9a3ab18b1b0b7c9d2
+    name: x-tenant-id
+    value: tmpl
+    description: ""
+  - id: pair_f7bbd4ce005440ed99d376af1ac62f25
+    name: channel
+    value: OI
+    description: ""
+  - id: pair_18e872a40fd1459d99da365037e3d298
+    name: x-callback-path
+    value: /cbm/v1/customerBills/297076/document/410000140722/callback
+    description: ""
+authentication: {}
+metaSortKey: -1657801718283
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

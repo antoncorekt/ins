@@ -1,0 +1,21 @@
+_id: req_01045e6ea2c644818d321477c81e7c2c
+type: Request
+parentId: fld_05ff17458ebe493fb3dc0ea3f33c9fcd
+modified: 1672399385917
+created: 1672399373060
+url: "{{ _.evargMongo }}/actuator/health"
+name: evargMongoActuator
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1672211560872.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

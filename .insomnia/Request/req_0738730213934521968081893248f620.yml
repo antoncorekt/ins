@@ -1,0 +1,25 @@
+_id: req_0738730213934521968081893248f620
+type: Request
+parentId: fld_494890973bfd4cd58efaa9195727cabd
+modified: 1675071254558
+created: 1675070874355
+url: https://idm.t-mobile.pl/oauth/jwks
+name: /getAlgorytm
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_cfadecf4608b4beb873313556207b652
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+authentication: {}
+metaSortKey: -1675070874355
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
