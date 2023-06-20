@@ -1,0 +1,29 @@
+_id: req_08630815d9bc42e39b912e194a4f9ef4
+type: Request
+parentId: fld_43d7c8e3c7584d95bd29f1e5d58085bd
+modified: 1685100335904
+created: 1685100141101
+url: "{{ _.billWOrker }}/config/crud/degMappingConf"
+name: POST /store/resource/
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"degMappingId": "test",
+    	"value": "testValue"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1673019211427.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

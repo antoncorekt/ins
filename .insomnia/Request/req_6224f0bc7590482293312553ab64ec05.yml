@@ -1,0 +1,29 @@
+_id: req_6224f0bc7590482293312553ab64ec05
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1686908799839
+created: 1686908746901
+url: http://dis-sit.unx.t-mobile.pl/hal-tibco/customerBill/v1/customerBills
+name: getCustomerBillsTibco
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_25b61984725f43669de7a3eac390a217
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - id: pair_ec3ac094e1c0472ca022389ea4a43c10
+    name: profileID
+    value: "715572"
+    description: ""
+authentication: {}
+metaSortKey: -1651076500277.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

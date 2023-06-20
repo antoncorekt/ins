@@ -1,0 +1,16 @@
+_id: env_325e5725768f498888c650a1dc5e7687
+type: Environment
+parentId: env_01a801cf4ce2524c033e6342a63a9067869cc342
+modified: 1680788964887
+created: 1680788934330
+name: test
+data:
+  billWOrker: http://ngcbm-test.kopernik.t-mobile.pl/bill
+  aggregator: http://ngcbm-test.kopernik.t-mobile.pl/aggregator
+dataPropertyOrder:
+  "&":
+    - billWOrker
+    - aggregator
+color: null
+isPrivate: false
+metaSortKey: 1680788934330

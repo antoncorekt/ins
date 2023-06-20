@@ -1,7 +1,7 @@
 _id: req_8a318128d7514463b0fcb56768dbd74a
 type: Request
 parentId: fld_19afc9e27145400d87c3ed3dc1493a2e
-modified: 1680612571296
+modified: 1687191442665
 created: 1666910424988
 url: "{{ _.billWOrker }}/billingProcess"
 name: /billingProcess BILLING
@@ -11,19 +11,16 @@ body:
   mimeType: application/json
   text: |-
     {
-       "billCycleId" : "P1M-1-1_20230501",
+       "billCycleId" : "P1M-1-1_20230701",
        "startedBy" : "akozlovskyi",
     	 "billingCategory": "BILLING",
     	  "billingProcessMode": "TEST",
-    	  "biltlingAccounts" : [
+    	  "billingAccounts" : [
                 {
-                    "id" : "5374251140"
-                },
-    			{
-    				"id": "4044632174"
-    			}
+                    "id" : "3000000382"
+                }
         ], 
-    	 "features": ["ITEMIZED_BILL"]
+    	 "features": []
     }
 parameters: []
 headers:

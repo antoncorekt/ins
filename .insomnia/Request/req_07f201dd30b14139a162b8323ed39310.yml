@@ -1,12 +1,12 @@
-_id: req_3ffc70d4a0f5423eb71d05a51e87ab51
+_id: req_07f201dd30b14139a162b8323ed39310
 type: Request
 parentId: fld_e180d4ff88754510a122fbf203655f85
-modified: 1680705591919
-created: 1674134547956
-url: "{{ _.aggregator }}/usages"
-name: /POST usage
+modified: 1686664463135
+created: 1683188816344
+url: "{{ _.aggregator }}/usages?rql=eq(id,86e775f7891b2980ad7b7b4957e8e6adf423bc3c)"
+name: /GET usage
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: |-2
@@ -98,7 +98,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1674134547956
+metaSortKey: -1674088502925.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

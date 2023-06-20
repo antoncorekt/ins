@@ -1,9 +1,9 @@
 _id: req_95cfc1c84ba64b299a5511b7f7729775
 type: Request
 parentId: fld_bc92fb59929e4e018952175e37bc1257
-modified: 1678664529210
+modified: 1685456359352
 created: 1678055239974
-url: http://localhost:8088/v1/external/documents
+url: "{{ _.gatewayH01 }}/v1/external/documents"
 name: /DM document
 description: ""
 method: POST
@@ -11,37 +11,353 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"id": "4e01c373-0427-4799-95f5-11a79f0b17b4",
-    	"href": "http://dis-sit.unx.t-mobile.pl:8080/documentManagement/v1/documents/6283da88d389b076ff773863",
-    	"documentType": "consent",
-    	"lifecycleState": "final",
-    	"version": "1.0",
-    	"creationDate": "2022-04-26T14:26:59Z",
-    	"lastUpdate": "2022-04-26T14:26:59Z",
-    	"relatedObject": {},
-    	"relatedParty": {},
-    	"attachments": [
-    		{
-    			"id": "4e01c373-0427-4799-95f5-11a79f0b17b4",
-    			"href": "href://NtGWywZMAIejnry",
-    			"name": "INVOICE.pdf",
-    			"type": "Inny",
-    			"mimeType": "application/pdf",
-    			"size": 153389,
-    			"sizeUnit": "bytes",
-    			"url": "url://NtGWywZMAIejnry",
-    			"documentSpecifications": [
-    				{
-    					"id": "B2C.HardwareCorrectiveInvoice"
-    				}
-    			]
-    		}
-    	],
-    	"documentSpecifications": [
-    		{
-    			"id": "B2C.HardwareCorrectiveInvoice"
-    		}
-    	]
+      "id": "6475ec50fdfcea17bc85c63f",
+      "href": "http://dis-prod.unx.t-mobile.pl/documentManagement/v1/documents/6475ec50fdfcea17bc85c63f",
+      "documentType": "invoice",
+      "lifecycleState": "final",
+      "version": "1.0",
+      "creationDate": "2023-05-30T12:30:08.797Z",
+      "lastUpdate": "2023-05-30T12:30:10.177Z",
+      "relatedObject": {
+        "id": "684949",
+        "entityType": "customerBill",
+        "involvement": "dependsOn",
+        "objectValue": {
+          "id": "684949",
+          "type": "hardware",
+          "billNo": "490490290523",
+          "billType": "oneTimeInvoice",
+          "runType": "offCycle",
+          "state": "validated",
+          "lastUpdate": "2023-05-27T10:40:19.978702626Z",
+          "billDate": "2023-05-27",
+          "taxableSupplyDate": "2023-05-27",
+          "paymentDueDate": "2023-06-10",
+          "taxExcludedAmount": {
+            "units": "PLN",
+            "amount": 0.93
+          },
+          "taxIncludedAmount": {
+            "units": "PLN",
+            "amount": 1
+          },
+          "taxAmount": {
+            "units": "PLN",
+            "amount": 0.07
+          },
+          "billingAccount": {
+            "id": "112994895",
+            "businessId": "1.19345904",
+            "name": "MONIKA PACHNIAK",
+            "characteristics": [
+              {
+                "name": "billingSystem",
+                "value": "BSCS"
+              },
+              {
+                "name": "paymentDueDays",
+                "value": "14"
+              },
+              {
+                "name": "billingInventoryId",
+                "value": "112994895"
+              }
+            ]
+          },
+          "billDeliverySnapshots": [
+            {
+              "billingCycleSpecification": {
+                "id": "02"
+              },
+              "billDestination": {
+                "type": "emailAddress",
+                "emailAddress": "monika-neska17@wp.pl",
+                "validated": true
+              }
+            }
+          ],
+          "taxItem": [
+            {
+              "taxRate": 8,
+              "taxExcludedAmount": {
+                "units": "PLN",
+                "amount": 0.93
+              },
+              "taxIncludedAmount": {
+                "units": "PLN",
+                "amount": 1
+              },
+              "taxAmount": {
+                "units": "PLN",
+                "amount": 0.07
+              }
+            }
+          ],
+          "paymentMethod": {
+            "name": "Przelew bankowy"
+          },
+          "billPayer": {
+            "partyValue": {
+              "id": "1",
+              "role": "billPayer",
+              "type": "individual",
+              "entityType": "Party",
+              "individual": {
+                "givenName": "MONIKA",
+                "familyName": "PACHNIAK",
+                "title": "PAN",
+                "individualIdentifications": [
+                  {
+                    "identificationId": "94090808668",
+                    "name": "PESEL",
+                    "type": "socialSecurityNumber"
+                  },
+                  {
+                    "identificationId": "DCA158728",
+                    "name": "ID",
+                    "type": "nationalIdentityCard"
+                  }
+                ]
+              },
+              "contacts": [
+                {
+                  "type": "address",
+                  "role": {
+                    "name": "main"
+                  },
+                  "medium": {
+                    "address": {
+                      "streetNr": "12",
+                      "streetName": "POCZTOWA",
+                      "postcode": "05-555",
+                      "city": "TARCZYN",
+                      "country": "POL",
+                      "subAddresses": [
+                        {
+                          "subUnitType": "FLAT",
+                          "subUnitNumber": "20"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "type": "email",
+                  "role": {
+                    "name": "main"
+                  },
+                  "medium": {
+                    "emailAddress": "monika-neska17@wp.pl"
+                  }
+                }
+              ]
+            }
+          },
+          "billPayee": {
+            "bankAccount": [
+              {
+                "accountNumber": "PL16114012382444801129948958",
+                "accountNumberType": "IBAN",
+                "bic": "BREXPLPWXXX",
+                "bank": "mBank S.A."
+              }
+            ],
+            "partyValue": {
+              "organization": {
+                "isHeadOffice": true,
+                "tradingName": "T-Mobile Polska",
+                "nameType": "S.A",
+                "organizationIdentifications": [
+                  {
+                    "identificationId": "526-104-05-67",
+                    "name": "NIP",
+                    "type": "vatNumber"
+                  },
+                  {
+                    "identificationId": "011417295",
+                    "name": "REGON",
+                    "type": "subjectRegistrationId"
+                  }
+                ]
+              },
+              "contacts": [
+                {
+                  "group": "business",
+                  "type": "address",
+                  "medium": {
+                    "address": {
+                      "streetNr": "12",
+                      "streetName": "Marynarska",
+                      "postcode": "02-674",
+                      "city": "Warszawa",
+                      "stateOrProvince": "mazowieckie",
+                      "country": "POL"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "relatedParty": [
+            {
+              "entityReferredType": "Party",
+              "id": "panteraIndPar-9185676",
+              "role": "owner"
+            }
+          ],
+          "relatedEntities": [
+            {
+              "entityType": "order",
+              "relationType": "reference",
+              "relatedEntityId": "P-ORD-6360199"
+            },
+            {
+              "entityType": "agreement",
+              "relationType": "reference",
+              "relatedEntityId": "P-AGR-1377798"
+            }
+          ],
+          "correlatorId": "684949",
+          "category": "normal",
+          "channel": {
+            "id": "OFS"
+          },
+          "externalID": "P-ORD-6360199",
+          "appliedCustomerBillingRates": [
+            {
+              "id": "684949001",
+              "name": "TV Dekoder",
+              "description": "Dekoder Skyworth HY4402- UsługaTV",
+              "priority": 1,
+              "aggregateLevel": "invoiceLine",
+              "type": "oneTimeCharge",
+              "taxExcludedAmount": {
+                "units": "PLN",
+                "amount": 0.93
+              },
+              "taxIncludedAmount": {
+                "units": "PLN",
+                "amount": 1
+              },
+              "unitMeasure": {
+                "unit": "szt",
+                "amount": 1
+              },
+              "appliedTax": [
+                {
+                  "taxRate": 8,
+                  "taxExcludedAmount": {
+                    "units": "PLN",
+                    "amount": 0.93
+                  },
+                  "taxIncludedAmount": {
+                    "units": "PLN",
+                    "amount": 1
+                  },
+                  "taxAmount": {
+                    "units": "PLN",
+                    "amount": 0.07
+                  }
+                }
+              ],
+              "characteristic": [
+                {
+                  "name": "materialCode",
+                  "value": "ST-M-T01010"
+                },
+                {
+                  "name": "serialNumber",
+                  "value": "341220926134737"
+                },
+                {
+                  "name": "relatedProductType",
+                  "value": "TV"
+                },
+                {
+                  "name": "businessProcess",
+                  "value": "acquisition"
+                }
+              ],
+              "relatedEntities": [
+                {
+                  "entityType": "orderItem",
+                  "relationType": "reference",
+                  "relatedEntityId": "P-PRD-9976901"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            {
+              "name": "retailShopNo",
+              "value": "0008"
+            },
+            {
+              "name": "login",
+              "value": "MDylak1"
+            },
+            {
+              "name": "deliveryNoteNo",
+              "value": "7201067084"
+            },
+            {
+              "name": "deliveryNoteYear",
+              "value": "2023"
+            },
+            {
+              "name": "isVATPayer",
+              "value": "false"
+            },
+            {
+              "name": "ifsEmployeeNo",
+              "value": "I0008.MAG"
+            },
+            {
+              "name": "ifsRetailShopNo",
+              "value": "0008"
+            },
+            {
+              "name": "fiscalBillNo",
+              "value": "1251694"
+            },
+            {
+              "name": "fiscalPrinterNo",
+              "value": "CAJ1501324599"
+            },
+            {
+              "name": "fiscalBillDate",
+              "value": "2023-05-27"
+            },
+            {
+              "name": "IFSTransactionId",
+              "value": "46114695"
+            }
+          ]
+        }
+      },
+      "attachments": [
+        {
+          "id": "fccb47aedcf4467b81da9565196d8d78",
+          "href": "http://dis-prod.unx.t-mobile.pl/documentManagement/v1/documents/6475ec50fdfcea17bc85c63f/attachments/fccb47aedcf4467b81da9565196d8d78",
+          "name": "Faktura sprzetowa.pdf",
+          "description": "Hardware Invoice",
+          "type": "Inny",
+          "mimeType": "application/pdf",
+          "sizeUnit": "bytes",
+          "url": "/6475ec50fdfcea17bc85c63f/attachments/fccb47aedcf4467b81da9565196d8d78",
+          "documentSpecifications": [
+            {
+              "id": "B2C.HardwareInvoice"
+            }
+          ]
+        }
+      ],
+      "documentSpecifications": [
+        {
+          "id": "B2C.HardwareInvoice",
+          "version": "1"
+        }
+      ]
     }
 parameters: []
 headers:

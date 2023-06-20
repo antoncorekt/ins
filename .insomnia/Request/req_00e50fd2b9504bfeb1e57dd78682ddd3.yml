@@ -1,9 +1,12 @@
 _id: req_00e50fd2b9504bfeb1e57dd78682ddd3
 type: Request
 parentId: fld_bc92fb59929e4e018952175e37bc1257
-modified: 1679050184242
+modified: 1682683133186
 created: 1651076500283
-url: "{{gateway}}{{customerBillsUrl}}/514941"
+url: "{{ _.gatewayH01
+  }}/v1/external/customerBills?query=and(in(type,recurringSubscription,firstSub\
+  scription),and(ge(billPeriod.startDateTime,2022-06-01),le(billPeriod.startDat\
+  eTime,2022-08-01)))&sortBy=billDate&source=CBM"
 name: /customerBills
 description: ""
 method: GET

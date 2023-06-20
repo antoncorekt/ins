@@ -1,17 +1,17 @@
-_id: req_4f8b893175da443c80e20b60757a37d4
+_id: req_f5453d2c199546eba762aabdf5fc36bb
 type: Request
-parentId: fld_c56dd898363541d384d53c79912ba5c1
-modified: 1681309302124
-created: 1672873971295
-url: "{{ _.billWOrker }}/config/cache/TaxRateConfig/invalidate"
-name: POST /cache/name/invalidate
+parentId: fld_f07c3860c50f49cfbc001ba8218ab484
+modified: 1687129246075
+created: 1687129100070
+url: "{{ _.ngcbmGateway }}/sync/allAgreements"
+name: /sync/allCommitment
 description: ""
 method: POST
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1672513649237.75
+metaSortKey: -1680803669841.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

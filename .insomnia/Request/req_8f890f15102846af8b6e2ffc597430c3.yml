@@ -1,17 +1,17 @@
 _id: req_8f890f15102846af8b6e2ffc597430c3
 type: Request
 parentId: fld_bc92fb59929e4e018952175e37bc1257
-modified: 1679913837508
+modified: 1684921049743
 created: 1651076500294
 url: "{{ _.gatewayH01
-  }}/v1/external/customerBills/551498/paymentOrder/8aacb4da861e401b01863d9343c4\
-  7da9"
+  }}/v1/external/customerBills/677727/paymentOrder/8aacb0f2874e173d01884d19848e\
+  1786"
 name: Paid /customerBills/{ID}/paymentOrder/{PAYMENT_ID}
 description: ""
 method: PATCH
 body:
   mimeType: ""
-  text: '{"state":"Paid","paymentRef":{"id":"8aacb4da861e401b01863d9343c47da9"},"paymentMethod":{"id":"327d1823-88cf-40e4-8b56-6b8ef0404dd5","type":"tokenizedCard"},"paymentDate":"2023-02-11T01:13:57.667Z"}'
+  text: '{"state":"Paid","paymentRef":{"id":"8aacb0f2874e173d01884d19848e1786"},"paymentMethod":{"id":"b8f090db-327c-4eea-b5b8-e6bcf685bb0d","type":"tokenizedCard"},"paymentDate":"2023-05-24T09:32:03.427Z"}'
 parameters: []
 headers:
   - name: Content-Type

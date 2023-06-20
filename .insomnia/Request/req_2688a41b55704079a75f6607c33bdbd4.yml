@@ -1,17 +1,17 @@
-_id: req_818e06af6c65452b88017be760682bfd
+_id: req_2688a41b55704079a75f6607c33bdbd4
 type: Request
-parentId: fld_133abf85cf9440099ccae382822a18fb
-modified: 1686690054173
-created: 1672150796320
-url: "{{ _.billWOrker }}/cbDetails?customerBillId=CB14138T"
-name: GET /cbDetails
+parentId: fld_1a95469da05a473998228474a8655dfa
+modified: 1682507253826
+created: 1681382850567
+url: "{{ _.billWOrker }}/dlq?rql=reg(exceptionCause,404 Not.*bpg.*)"
+name: GET /dlq
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1672150796320
+metaSortKey: -1681382850567
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

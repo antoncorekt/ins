@@ -1,17 +1,17 @@
-_id: req_818e06af6c65452b88017be760682bfd
+_id: req_bb0422b0bf6f4091b028e67dfb4970f0
 type: Request
-parentId: fld_133abf85cf9440099ccae382822a18fb
-modified: 1686690054173
-created: 1672150796320
-url: "{{ _.billWOrker }}/cbDetails?customerBillId=CB14138T"
-name: GET /cbDetails
+parentId: fld_f07c3860c50f49cfbc001ba8218ab484
+modified: 1687268199378
+created: 1680863709098
+url: "{{ _.ngcbmGateway }}/usageEventsDlq?rql=eq(id,2C6491a545cf38dc06f0e73e52)"
+name: /usageEventDlq
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1672150796320
+metaSortKey: -1680863709098
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

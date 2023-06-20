@@ -1,9 +1,9 @@
 _id: req_71df203ed2e94604939f722a18295ae5
 type: Request
 parentId: fld_19afc9e27145400d87c3ed3dc1493a2e
-modified: 1673607844233
+modified: 1686668120347
 created: 1670192194029
-url: "{{ _.billWOrker }}/cbDetails?customerBillId=CB13517T"
+url: "{{ _.billWOrker }}/cbDetails?customerBillId=CB14137T"
 name: /cbDdetailes byCbId
 description: ""
 method: GET

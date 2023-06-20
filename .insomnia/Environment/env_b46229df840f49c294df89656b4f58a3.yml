@@ -1,11 +1,26 @@
 _id: env_b46229df840f49c294df89656b4f58a3
 type: Environment
 parentId: env_01a801cf4ce2524c033e6342a63a9067869cc342
-modified: 1656442071567
+modified: 1682505951118
 created: 1656442058052
 name: prep
-data: {}
-dataPropertyOrder: {}
+data:
+  deg: http://localhost:8652
+  rbmAdapter: http://localhost:8652
+  gatewayH01: http://cbm-prep.kopernik.t-mobile.pl/cbm/sit/api
+  billWOrker: http://ngcbm-prep.kopernik.t-mobile.pl/bill
+  aggregator: http://ngcbm-prep.kopernik.t-mobile.pl/aggregator
+  ngcbmGateway: http://ngcbm-prep.kopernik.t-mobile.pl/customerBill
+  idm: https://idmprep.t-mobile.pl
+dataPropertyOrder:
+  "&":
+    - deg
+    - rbmAdapter
+    - gatewayH01
+    - billWOrker
+    - aggregator
+    - ngcbmGateway
+    - idm
 color: null
 isPrivate: false
 metaSortKey: 1656442058052

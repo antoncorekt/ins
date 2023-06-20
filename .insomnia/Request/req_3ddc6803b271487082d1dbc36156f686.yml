@@ -1,10 +1,10 @@
-_id: req_df77eab48d1942f8984990f4ef776a6e
+_id: req_3ddc6803b271487082d1dbc36156f686
 type: Request
-parentId: fld_133abf85cf9440099ccae382822a18fb
-modified: 1681467827842
-created: 1680210914092
-url: "{{ _.billWOrker }}/customerBills/createValidatorFromExample"
-name: POST/generateValidator
+parentId: fld_f07c3860c50f49cfbc001ba8218ab484
+modified: 1681468125187
+created: 1681467784680
+url: "{{ _.ngcbmGateway }}/v1/customerBills"
+name: / customerBill OTHER
 description: ""
 method: POST
 body:
@@ -19,7 +19,7 @@ body:
     	"taxableSupplyDate": "2022-05-27",
     	"taxIncludedAmount": {
     		"units": "PLN",
-    		"amount": 1500
+    		"amodunt": 1500
     	},
     	"billDeliverySnapshots": [
     		{
@@ -143,7 +143,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1671631562425
+metaSortKey: -1677155348734.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

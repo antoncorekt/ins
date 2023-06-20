@@ -1,0 +1,22 @@
+_id: req_3b608d0fc0c446d0b8b7c3580f3a03ff
+type: Request
+parentId: fld_f07c3860c50f49cfbc001ba8218ab484
+modified: 1680870096140
+created: 1680870041430
+url: "{{ _.ngcbmGateway
+  }}/usageEventsDlq/remove?rql=reg(exceptionCause,DuplicateKeyException)"
+name: /usageEventDlq/remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1680743630585
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

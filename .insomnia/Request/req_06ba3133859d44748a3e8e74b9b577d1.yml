@@ -1,0 +1,45 @@
+_id: req_06ba3133859d44748a3e8e74b9b577d1
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1687299376039
+created: 1681851860020
+url: "{{ _.gatewayH01 }}/v1/external/customerBills"
+name: /customerBill HARD_UPSELL
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"type":"hardwareUpsell","billType":"oneTimeInvoice","runType":"offCycle","taxableSupplyDate":"2023-06-20","taxIncludedAmount":{"units":"PLN","amount":1500},"appliedPayment":[{"appliedAmount":{"units":"PLN","amount":1500},"payment":{"id":"8aaad3647fad590b017fe4bb02e229e5","paymentDate":"2022-04-01T10:45:59Z","amount":{"units":"PLN","amount":1500}}}],"billDeliverySnapshots":[{"billDestination":{"type":"emailAddress","emailAddress":"aleksander.kujawski@tmobile.pl","validated":true}}],"paymentMethod":{"id":"557fb50f-2de4-4b6e-b620-10ea19cd4695","type":"tokenizedCard"},"billPayer":{"partyValue":{"role":"billPayer","type":"individual","individual":{"givenName":"Aleksander","familyName":"Kujawski"},"contacts":[{"type":"address","role":{"name":"billing"},"medium":{"address":{"streetNr":"187/77","streetName":"Brygadzistów","postcode":"59-922","city":"Szczyrzyc","country":"POL"}}}]}},"relatedParty":[{"entityReferredType":"Profile","id":"fbc88f07-1856-4860-b24d-7757c613093c","name":"Aleksander
+    Kujawski","role":"owner"}],"relatedEntities":[{"entityType":"order","relationType":"reference","relatedEntityId":"075935174934439"}],"correlatorId":"075935174934439","category":"normal","channel":{"id":"OFS"},"appliedCustomerBillingRates":[{"id":"125724001","name":"Sasmsung
+    S21","description":"Opłata za telefon Samsung
+    S21","aggregateLevel":"invoiceLine","type":"oneTimeCharge","taxIncludedAmount":{"units":"PLN","amount":1500},"appliedTax":[{"taxRate":23}],"characteristic":[{"name":"materialCode","value":"AM-A-T04010"},{"name":"relatedProductType","value":"Hardware"},{"name":"businessProcess","value":"acquisition"}]}],"characteristics":[{"name":"externalId","value":"07593517493443k"},{"name":"channel","value":"OFS"}]}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_91da5ee629ca4552a578794cc6ff8472
+  - name: x-request-session-id
+    value: session-asascs
+    id: pair_587b3710fc6d43b8b2dfdc72f908b6d6
+    disabled: true
+  - name: x-request-tracking-id
+    value: traking-ascsaca-1
+    id: pair_36e6d74ecb5f4df981172e0732209550
+    disabled: true
+  - name: x-request-id
+    value: request-fdbdcsd
+    id: pair_8bd2271a6bd94390a9023645c4999309
+    disabled: true
+  - id: pair_d9247dbfba51488484ee1cc3aa25c9ac
+    name: x-request-callbackurls
+    value: http://tofsappsit.unx.t-mobile.pl:48571/ofs/customerBills/callback/
+    description: ""
+authentication: {}
+metaSortKey: -1651076500307.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: true
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

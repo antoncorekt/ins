@@ -1,18 +1,18 @@
-_id: req_b2b5a27f619c458f908e75badf353324
+_id: req_6099a41d6d464e67a807e19259c137ac
 type: Request
 parentId: fld_bc92fb59929e4e018952175e37bc1257
-modified: 1686577792146
-created: 1651076500278
+modified: 1687299551154
+created: 1683886336828
 url: "{{ _.gatewayH01
-  }}/v1/external/customerBills?billingAccount.Id=112910554&source=CBM"
-name: getCustomerBills
+  }}/v1/external/customerBills?query=eq(id,125737)&sortBy=billDate&source=CBM"
+name: getCustomerBillsById
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1651076500278
+metaSortKey: -1651076500276.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

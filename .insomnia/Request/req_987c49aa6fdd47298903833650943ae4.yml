@@ -1,9 +1,9 @@
 _id: req_987c49aa6fdd47298903833650943ae4
 type: Request
 parentId: fld_2cf07f258da84ba6a96bddf893876ab4
-modified: 1679913818019
+modified: 1684921001983
 created: 1665138258896
-url: http://cbm-prod.kopernik.t-mobile.pl/cbm/prod/api/operations/customerBills/551498/startWorkflowProcess
+url: http://cbm-prod.kopernik.t-mobile.pl/cbm/prod/api/operations/customerBills/677727/startWorkflowProcess
 name: manualStartWorkflowProcess_hardNormal
 description: ""
 method: POST
@@ -12,10 +12,10 @@ body:
   text: |-
     {
         "tasksToSkip": [
-    			"Activity_09fyrxz"
+    			"Activity_0mvpe6l"
         ],
         "camundaVariables": {
-    			  "PAYMENT_ID": "8aacb4da861e401b01863d9343c47da9",
+    			  "PAYMENT_ID": "8aacb0f2874e173d01884d19848e1786",
     			  "needRetry": "false"
         }
        

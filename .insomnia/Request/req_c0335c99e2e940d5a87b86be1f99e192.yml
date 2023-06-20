@@ -1,0 +1,28 @@
+_id: req_c0335c99e2e940d5a87b86be1f99e192
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1687299462587
+created: 1687276148796
+url: "{{ _.gatewayH01 }}/v1/external/customerBills/125737"
+name: /customerBills/{ID} Hardware2.0 fiscal
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: '{"name":"9LswwoAeV3gktoXeYBFb","billNo":"9LswwoAeV3gktoXeYBFb","billDate":"2023-06-20","paymentDueDate":"2023-07-04","taxExcludedAmount":{"units":"PLN","amount":1219.51},"taxIncludedAmount":{"units":"PLN","amount":1500},"taxAmount":{"units":"PLN","amount":280.49},"taxItem":[{"taxRate":23,"taxExcludedAmount":{"units":"PLN","amount":1219.51},"taxIncludedAmount":{"units":"PLN","amount":1500},"taxAmount":{"units":"PLN","amount":280.49}}],"paymentMethod":{"name":"Płatność
+    ON-LINE"},"appliedCustomerBillingRates":[{"id":"125724001","description":"Amazfit
+    T-rex PRO
+    Czarny","priority":1,"taxExcludedAmount":{"units":"PLN","amount":1219.51},"taxIncludedAmount":{"units":"PLN","amount":1500},"unitMeasure":{"unit":"szt","amount":1},"appliedTax":[{"taxRate":23,"taxExcludedAmount":{"units":"PLN","amount":1219.51},"taxIncludedAmount":{"units":"PLN","amount":1500},"taxAmount":{"units":"PLN","amount":280.49}}],"characteristic":[{"name":"materialCode","value":"AM-A-T04010"}]}],"characteristics":[{"name":"ifsEmployeeNo","value":"I0006.MAG"},{"name":"ifsRetailShopNo","value":"0006"},{"name":"fiscalBillNo","value":"56903fc8-888e-48b1-8294-dc89252a7578"},{"name":"fiscalPrinterNo","value":"CCV1801258475"},{"name":"fiscalBillDate","value":"2023-06-20"},{"name":"IFSTransactionId","value":"56903fc8-888e-48b1-8294-dc89252a7578"}]}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1651076500288
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

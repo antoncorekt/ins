@@ -1,17 +1,17 @@
-_id: req_818e06af6c65452b88017be760682bfd
+_id: req_04c2ef7306fc4307947a48a7aefc0042
 type: Request
-parentId: fld_133abf85cf9440099ccae382822a18fb
-modified: 1686690054173
-created: 1672150796320
-url: "{{ _.billWOrker }}/cbDetails?customerBillId=CB14138T"
-name: GET /cbDetails
+parentId: fld_43d7c8e3c7584d95bd29f1e5d58085bd
+modified: 1685100905161
+created: 1685100079908
+url: "{{ _.billWOrker }}/config/crud/degMappingConf"
+name: GET /store/resource
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1672150796320
+metaSortKey: -1673457745628
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

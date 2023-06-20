@@ -1,0 +1,269 @@
+_id: req_355dcaaea8bf40c2b914c34aa64e398b
+type: Request
+parentId: fld_bc92fb59929e4e018952175e37bc1257
+modified: 1682676512146
+created: 1682614817485
+url: "{{ _.gatewayH01 }}/v1/external/customerBills"
+name: /customerBill TOP_UP2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    		"type": "topUp",
+    		"billType": "oneTimeInvoice",
+    		"runType": "offCycle",
+    		"state": "settled",
+    		"billDate": "2023-04-25",
+    		"taxableSupplyDate": "2023-04-25",
+    		"remainingAmount": {
+    			"units": "PLN",
+    			"amount": 0
+    		},
+    		"taxExcludedAmount": {
+    			"units": "PLN",
+    			"amount": 81.30
+    		},
+    	"billDeliverySnapshots": [
+    		{
+    			"id": "123",
+    			"billDestination": {
+    				"type": "emailAddress",
+    				"emailAddress": "anton.kozlovskyi@external.t-mobile.pl"
+    			}
+    		}
+    	],
+    		"taxIncludedAmount": {
+    			"units": "PLN",
+    			"amount": 100.00
+    		},
+    		"taxAmount": {
+    			"units": "PLN",
+    			"amount": 18.70
+    		},
+    		"billDeocument": [
+    			{
+    				"id": "5464171a0b7e498b9225e184ae2e0d4f",
+    				"href": "http://dis-sit.unx.t-mobile.pl:8080/documentManagement/v1/documents/6447932383ce9000d0e08a80/attachments/5464171a0b7e498b9225e184ae2e0d4f",
+    				"name": "Faktura.pdf",
+    				"description": "Invoice",
+    				"mimeType": "application/pdf",
+    				"sizeUnit": "bytes",
+    				"url": "/6447932383ce9000d0e08a80/attachments/5464171a0b7e498b9225e184ae2e0d4f",
+    				"documentId": "6447932383ce9000d0e08a80"
+    			}
+    		],
+    		"appliedPayment": [
+    			{
+    				"appliedAmount": {
+    					"units": "PLN",
+    					"amount": 100.00
+    				},
+    				"payment": {
+    					"id": "8aaeb15f8722cb1d0187b796acf70a17",
+    					"paymentDate": "2023-04-25T08:45:20.336Z",
+    					"amount": {
+    						"units": "PLN",
+    						"amount": 100.00
+    					}
+    				}
+    			}
+    		],
+    		"taxItem": [
+    			{
+    				"taxRate": 23.0,
+    				"taxExcludedAmount": {
+    					"units": "PLN",
+    					"amount": 81.30
+    				},
+    				"taxIncludedAmount": {
+    					"units": "PLN",
+    					"amount": 100.00
+    				},
+    				"taxAmount": {
+    					"units": "PLN",
+    					"amount": 18.70
+    				}
+    			}
+    		],
+    		"billPayer": {
+    			"partyValue": {
+    				"name": "wwwyyyy",
+    				"type": "organization",
+    				"entityType": "ContactParty",
+    				"organization": {
+    					"tradingName": "wwwyyyy",
+    					"organizationIdentifications": [
+    						{
+    							"identificationId": "172",
+    							"type": "vatNumber"
+    						}
+    					]
+    				},
+    				"description": "Adresat faktrury za doładowanie",
+    				"contacts": [
+    					{
+    						"name": "Adres faktury za doładowanie",
+    						"group": "business",
+    						"type": "address",
+    						"role": {
+    							"name": "billing"
+    						},
+    						"medium": {
+    							"address": {
+    								"streetName": "2",
+    								"postcode": "02761",
+    								"city": "wwwwweaaea221",
+    								"country": "POL"
+    							}
+    						}
+    					}
+    				],
+    				"audit": {
+    					"sourceSystem": "PBM"
+    				}
+    			}
+    		},
+    		"billPayee": {
+    			"partyValue": {
+    				"organization": {
+    					"isHeadOffice": true,
+    					"tradingName": "T-Mobile Polska",
+    					"nameType": "S.A",
+    					"organizationIdentifications": [
+    						{
+    							"identificationId": "526-104-05-67",
+    							"name": "NIP",
+    							"type": "vatNumber"
+    						},
+    						{
+    							"identificationId": "011417295",
+    							"name": "REGON",
+    							"type": "subjectRegistrationId"
+    						}
+    					]
+    				},
+    				"contacts": [
+    					{
+    						"group": "business",
+    						"type": "address",
+    						"medium": {
+    							"address": {
+    								"streetNr": "12",
+    								"streetName": "Marynarska",
+    								"postcode": "02-674",
+    								"city": "Warszawa",
+    								"stateOrProvince": "mazowieckie",
+    								"country": "POL"
+    							}
+    						}
+    					}
+    				]
+    			}
+    		},
+    		"relatedParty": [
+    			{
+    				"id": "4044933",
+    				"role": "profile",
+    				"entityReferredType":"Party"
+    			}
+    		],
+    		"relatedEntities": [
+    			{
+    				"entityType": "serviceID",
+    				"relationType": "reference",
+    				"relatedEntityId": "48735537036"
+    			},
+    			{
+    				"entityType": "product",
+    				"relationType": "reference",
+    				"relatedEntityId": "70001000000420619"
+    			}
+    		],
+    		"correlatorId": "19423h8v-27b0-41d4-ajb6-3f0c7e142018",
+    		"category": "normal",
+    		"appliedCustomerBillingRates": [
+    			{
+    				"id": "516214001",
+    				"name": "Doładowanie Magenta",
+    				"description": "Doładowanie Magenta",
+    				"priority": 1,
+    				"aggregateLevel": "invoiceLine",
+    				"type": "oneTimeCharge",
+    				"taxExcludedAmount": {
+    					"units": "PLN",
+    					"amount": 81.30
+    				},
+    				"taxIncludedAmount": {
+    					"units": "PLN",
+    					"amount": 100.00
+    				},
+    				"appliedTax": [
+    					{
+    						"taxRate": 23.0,
+    						"taxRateName": "23.0%",
+    						"taxExcludedAmount": {
+    							"units": "PLN",
+    							"amount": 81.30
+    						},
+    						"taxIncludedAmount": {
+    							"units": "PLN",
+    							"amount": 100.00
+    						},
+    						"taxAmount": {
+    							"units": "PLN",
+    							"amount": 18.70
+    						}
+    					}
+    				],
+    				"productRef": {
+    					"id": "70001000000420619"
+    				},
+    				"relatedEntities": [
+    					{
+    						"entityType": "productSpecification",
+    						"entityName": "productSpecificationName",
+    						"relationType": "reference",
+    						"relatedEntityId": "redbullSubs_40GB_spec"
+    					}
+    				]
+    			}
+    		],
+    		"characteristics": [
+    			{
+    				"name": "externalId",
+    				"value": "17601b0f-24b1-45d2-aeb4-3f0d7e142018"
+    			},
+    			{
+    				"name": "channel",
+    				"value": "PBM"
+    			}
+    		]
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_91da5ee629ca4552a578794cc6ff8472
+  - name: x-request-session-id
+    value: session-asascs
+    id: pair_587b3710fc6d43b8b2dfdc72f908b6d6
+    disabled: true
+  - name: x-request-tracking-id
+    value: traking-ascsaca-1
+    id: pair_36e6d74ecb5f4df981172e0732209550
+    disabled: true
+  - name: x-request-id
+    value: request-fdbdcsd
+    id: pair_8bd2271a6bd94390a9023645c4999309
+    disabled: true
+authentication: {}
+metaSortKey: -1651076500305.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: true
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

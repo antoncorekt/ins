@@ -1,7 +1,7 @@
 _id: req_b94eedcde93c44eb8f905d50e8d9c8eb
 type: Request
 parentId: fld_f07c3860c50f49cfbc001ba8218ab484
-modified: 1680082913711
+modified: 1681467768363
 created: 1677676264661
 url: "{{ _.ngcbmGateway }}/v1/customerBills"
 name: / customerBill TOP_UP
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	  "id": "1237",
+    	  "id": "2239",
         "type": "topUp",
     	  "billDate": "2022-09-01",
         "billType": "oneTimeInvoice",
@@ -27,7 +27,7 @@ body:
         },
         "taxIncludedAmount": {
             "units": "PLN",
-            "amount": 18.73
+            "amount": 18.73 
         },
         "remainingAmount": {
             "units": "PLN",

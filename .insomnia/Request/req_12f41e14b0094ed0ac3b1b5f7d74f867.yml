@@ -1,23 +1,18 @@
-_id: req_1242a4f9b00949498d2873830ff0cffe
+_id: req_12f41e14b0094ed0ac3b1b5f7d74f867
 type: Request
 parentId: fld_f07c3860c50f49cfbc001ba8218ab484
-modified: 1681890325194
-created: 1677586710619
+modified: 1687268352068
+created: 1680864274405
 url: "{{ _.ngcbmGateway
-  }}/accountTransactionSync/billingAccountId/5062551269/export"
-name: /accountBalanseExport
+  }}/usageEventsDlq/reprocess?rql=eq(id,6491a545cf38dc06f0e73e52)"
+name: /usageEventDlq/reprocess
 description: ""
 method: POST
 body: {}
-parameters:
-  - id: pair_6e6bdc33f22b4fe290fa2c4f44cef9ae
-    name: mode
-    value: FULL
-    description: ""
-    disabled: false
+parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1675240729301.5
+metaSortKey: -1680783656756
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

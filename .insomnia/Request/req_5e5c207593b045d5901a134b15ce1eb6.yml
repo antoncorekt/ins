@@ -1,7 +1,7 @@
 _id: req_5e5c207593b045d5901a134b15ce1eb6
 type: Request
 parentId: fld_43d7c8e3c7584d95bd29f1e5d58085bd
-modified: 1675551250453
+modified: 1684830371746
 created: 1674042457895
 url: "{{ _.billWOrker }}/config/crud/"
 name: GET /store
